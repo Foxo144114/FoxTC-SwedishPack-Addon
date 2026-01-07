@@ -14,6 +14,12 @@ public class ItemAddonPackRollingStock  extends ItemAbstractRollingStock
     }
 
     @Override
+    public String GetContentPackName()
+    {
+        return null;
+    }
+
+    @Override
     public String GetTexturePath()
     {
         return trainaddon.common.library.Info.modID.toLowerCase() + ":trains/" + this.iconName;

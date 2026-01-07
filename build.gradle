@@ -1,6 +1,12 @@
+//change this for a different TC5 git
+def gitTC = 'https://github.com/bidahochi/Traincraft-5.git'
+def branch = 'foxtc-020-tracktastic'
+def cloneDir = "${buildDir}/libs/TC/"
+import org.apache.tools.ant.taskdefs.condition.Os
+
 buildscript {
 	repositories {
-		mavenCentral()
+
 		maven {
             url "https://repo1.maven.org/maven2" 
         }
@@ -22,8 +28,8 @@ buildscript {
 
 apply plugin: 'forge'
 apply plugin: 'idea'
-sourceCompatibility = targetCompatibility = "1.7"
-compileJava { sourceCompatibility = targetCompatibility = "1.7" }
+sourceCompatibility = targetCompatibility = "1.8"
+compileJava { sourceCompatibility = targetCompatibility = "1.8" }
 
 ext.configFile = file "build.properties"
 configFile.withReader {
@@ -32,6 +38,16 @@ configFile.withReader {
     project.ext.config = new ConfigSlurper().parse prop
 }
 
+configurations {
+    embedded
+    implementation.extendsFrom embedded
+}
+
+def commonManifest = {
+    attributes FMLCorePlugin: "li.cil.oc.common.launch.TransformerLoader"
+    attributes FMLCorePluginContainsFMLMod: "true"
+    attributes FMLAT: "oc_at.cfg"
+}
 
 version = "1.0.0"
 group= "src.trainaddon" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
@@ -44,46 +60,122 @@ minecraft {
     replace "@VERSION1@", config.modVersion.toString()
 }
 
+// Task to run the Gradle build in the cloned repo
+task buildClonedRepo(type: Exec) {
+    //first, download or update the repo
+    doFirst {
+        if (!file(cloneDir).exists()) {
+            mkdir(cloneDir)
+            commandLine 'git', 'clone', '--branch', branch, gitTC, cloneDir
+            workingDir cloneDir
+        } else {
+            workingDir cloneDir
+            commandLine 'git', 'pull'
+        }
+    }
+    //next, add the dependence source directory, and add execute perms for linux/mac
+    sourceSets.main.java.srcDirs += file("${cloneDir}/src/main/java")
+    if (Os.isFamily(Os.FAMILY_UNIX)) {
+        commandLine 'chmod', 'a+rwx', './gradlew'
+    }
+    //last, compile the dependency
+    doLast {
+        if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+            commandLine 'cmd', '/c', 'gradlew.bat', 'build'
+        }
+        else {
+            commandLine './gradlew', 'setupDecompWorkspace --refresh-dependencies idea'
+        }
+    }
+}
+
+sourceSets {
+    main {
+        resources {
+            // Include the cloned assets folder as a resource directory
+            srcDir "${cloneDir}/src/main/resources"
+        }
+    }
+}
+
+
+jar {
+    // Exclude unwanted directories or files
+    exclude('train/**')
+    exclude('build/libs/tc/src/main/java/train/**')
+}
+
+//task packApi(type: Jar, dependsOn: "classes") {
+//   // Jar will always be updated
+// outputs.upToDateWhen {false}
+// Set the jar's base name
+// baseName = "Traincraft"
+
+//from (sourceSets.main.output) {
+//  excludes.addAll('**/*.info')
+//excludes.addAll('assets/tc/textures/trains')
+//excludes.addAll('assets/tc/sounds')
+// }
+//}
+
+repositories {
+    maven {
+        name "gt"
+        url "https://gregtech.overminddl1.com/"
+    }
+    maven {
+        name "codechicken"
+        url "https://maven.cil.li/"
+    }
+    flatDir {
+        dirs "libs"
+    }
+    maven {
+        name "curse.maven"
+        url "https://cursemaven.com"
+    }
+    ivy {
+        name "BuildCraft"
+        artifactPattern "http://www.mod-buildcraft.com/releases/BuildCraft/[revision]/[module]-[revision]-[classifier].[ext]"
+    }
+}
+
+dependencies {
+// `compile` will compile it and run with `runClient`/`runServer`
+    // `compileOnly will only compile but not load in dev testing (can still put in the instance mods directory though)
+    compileOnly "li.cil.oc:OpenComputers:MC1.7.10-1.7.2.1204:dev"
+    compileOnly "com.mod-buildcraft:buildcraft:7.1.23:dev"
+    compile "codechicken:CodeChickenLib:1.7.10-1.1.3.136:dev"
+    compile "codechicken:CodeChickenCore:1.7.10-1.0.4.35:dev"
+    compile "codechicken:NotEnoughItems:1.7.10-1.0.4.90:dev"
+    //implementation "train:Traincraft-4.5.0_001"
+
+    // quality of life line to simplify importing jars for experimental testing
+    compile fileTree(dir: 'lib', include: ['*.jar'])
+}
 repositories {
     maven {
         name "ChickenBones"
         url "http://chickenbones.net/maven/"
     }
-	   maven { 
+    maven {
         url = "http://maven.cil.li/"
     }
 }
-
-dependencies {
-    repositories {
-        ivy {
-            name "BuildCraft"
-            artifactPattern "http://www.mod-buildcraft.com/releases/BuildCraft/[revision]/[module]-[revision](-[classifier]).[ext]"
+dependencies
+        {
+            compile "codechicken:ForgeMultipart:1.7.10-1.2.0.345:dev"
         }
-    }
-    // you may put jars on which you depend on in ./libs
-    // or you may define them like so..
-    //compile "some.group:artifact:version:classifier"
-    //compile "some.group:artifact:version"
-	
-	compile "li.cil.oc:OpenComputers:MC1.7.10-1.7.5+:api"
-    compile name: "buildcraft", version: "7.1.16", classifier: "dev"
-	compile "codechicken:CodeChickenLib:1.7.10-1.1.3.140:dev"
-	compile "codechicken:CodeChickenCore:1.7.10-1.0.7.47:dev"
-	compile "codechicken:NotEnoughItems:1.7.10-1.0.5.120:dev"
-    compile fileTree(dir: 'jarfolder', includes: ['*.jar'])
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    // real examples
-    //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
-    //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
 
-    // for more info...
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+
+
+afterEvaluate {
+    tasks["idea"].dependsOn.add(buildClonedRepo);
+    tasks["build"].dependsOn.add(buildClonedRepo);
 }
 
-processResources
-{
+processResources {
     // this will ensure that this task is redone when the versions change.
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
@@ -91,60 +183,13 @@ processResources
     // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
-                
+
         // replace version and mcversion
         expand 'version':project.version, 'mcversion':project.minecraft.version
     }
-        
+
     // copy everything else, thats not the mcmod.info
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
-}
-
-idea
-{
-	module
-	{
-		inheritOutputDirs = true
-	}
-}
-task sourceJar(type: Jar) {
-	manifest {}
-	classifier = 'sources'
-	from sourceSets.main.allSource
-	exclude 'assets/**'
-}
-
-task devJar(type: Jar) {
-	manifest {}
-	classifier = 'dev'
-	from sourceSets.main.output
-}
-
-artifacts {
-	archives devJar, sourceJar
-}
-
-if (!hasProperty("mavenUsername")) {
-	ext.mavenUsername="${System.getenv().MAVEN_USERNAME}"
-}
-
-if (!hasProperty("mavenPassword")) {
-	ext.mavenPassword="${System.getenv().MAVEN_PASSWORD}"
-}
-
-if (!hasProperty("mavenURL")) {
-	ext.mavenURL="${System.getenv().MAVEN_URL}"
-}
-
-uploadArchives {
-	repositories {
-		mavenDeployer {
-			uniqueVersion = false
-			repository(url: mavenURL) {
-				authentication(userName: mavenUsername, password: mavenPassword)
-			}
-		}
-	}
 }
