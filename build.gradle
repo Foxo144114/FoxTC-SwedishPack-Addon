@@ -50,13 +50,13 @@ def commonManifest = {
 }
 
 version = "1.0.0"
-group= "src.trainaddon" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "FoxTC_Addon-PACKNAME"
+group= "src.swedishpack" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "FoxTC_Addon-SwedishPack"
 
 minecraft {
     version = "1.7.10-10.13.4.1614-1.7.10"
     runDir = "run"
-    replaceIn "Info.java"
+    replaceIn "Swedish_PackAddonInfo.java"
     replace "@VERSION1@", config.modVersion.toString()
 }
 
@@ -149,7 +149,7 @@ dependencies {
     compile "codechicken:CodeChickenCore:1.7.10-1.0.4.35:dev"
     compile "codechicken:NotEnoughItems:1.7.10-1.0.4.90:dev"
     //implementation "train:Traincraft-4.5.0_001"
-
+    compile fileTree(dir: 'jarfolder', includes: ['*.jar'])
     // quality of life line to simplify importing jars for experimental testing
     compile fileTree(dir: 'lib', include: ['*.jar'])
 }

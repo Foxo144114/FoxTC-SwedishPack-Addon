@@ -1,0 +1,12 @@
+{
+  "fullhour": {"category": "master", "sounds": [{"name": "fullhour","stream": true}]},
+  "signalhornlong": {"category": "master", "sounds": [{"name": "signalhornlong","stream": true}]},
+  "signalhornshort": {"category": "master", "sounds": [{"name": "signalhornshort","stream": true}]},
+  "bwhistlelong": {"category": "master", "sounds": [{"name": "bwhistlelong","stream": true}]},
+  "bwhistleshort": {"category": "master", "sounds": [{"name": "bwhistleshort","stream": true}]},
+  "ET41Horn": {"category": "master", "sounds": [{"name": "ET41Horn","stream": true}]},
+  "blokidle": {"category": "master", "sounds": [{"name": "blokidle","stream": true}]},
+  "blokrun": {"category": "master", "sounds": [{"name": "blokrun","stream": true}]},
+  "flokvissla": {"category": "master", "sounds": [{"name": "flokvissla","stream": true}]},
+  "flokchuff": {"category": "master", "sounds": [{"name": "flokchuff","stream": true}]}
+}
