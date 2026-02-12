@@ -1,13 +1,8 @@
 package swedishpack.common.rollingStock;
 
 import net.minecraft.entity.item.EntityMinecart;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.nbt.NBTTagList;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
-import net.minecraftforge.common.util.Constants;
 import swedishpack.client.render.models.ModelRcPanto;
 import swedishpack.client.render.models.ModelSJLittRc;
 import swedishpack.common.library.Swedish_PackAddonInfo;
@@ -16,13 +11,12 @@ import train.common.Traincraft;
 import train.common.api.ElectricTrain;
 import train.common.entity.CargoManager;
 import train.common.entity.CargoSpecification;
-import train.common.library.GuiIDs;
 import train.common.library.Info;
 import train.common.library.sounds.SoundRecord;
 
-public class Swedish_PackEntityLocoElectricSJLittRc1 extends ElectricTrain {
+public class Swedish_PackEntityLocoElectricSJLittRc4 extends ElectricTrain {
 
-	public static final SoundRecord Sound = new SoundRecord(Swedish_PackEntityLocoElectricSJLittRc1.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 0.3F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle" , 0.2F, 50, false, Info.resourceLocation +" ", 0 );
+	public static final SoundRecord Sound = new SoundRecord(Swedish_PackEntityLocoElectricSJLittRc4.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 0.3F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle" , 0.2F, 50, false, Info.resourceLocation +" ", 0 );
 
 	@Override
 	public SoundRecord getSoundRecord() {
@@ -30,7 +24,7 @@ public class Swedish_PackEntityLocoElectricSJLittRc1 extends ElectricTrain {
 	}
 
 
-	public Swedish_PackEntityLocoElectricSJLittRc1(World world) {
+	public Swedish_PackEntityLocoElectricSJLittRc4(World world) {
 		super(world);
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
@@ -95,7 +89,7 @@ public class Swedish_PackEntityLocoElectricSJLittRc1 extends ElectricTrain {
 
 	@Override
 	public String getInventoryName() {
-		return "SJ Rc1";
+		return "SJ Rc4";
 	}
 
 	@Override
@@ -106,8 +100,8 @@ public class Swedish_PackEntityLocoElectricSJLittRc1 extends ElectricTrain {
 	public void onRenderInsertRecord()
 	{
 		Traincraft.traincraftRegistry.RegisterRollingStockModel(new TrainRenderRecord(Swedish_PackAddonInfo.modID,
-				Swedish_PackEntityLocoElectricSJLittRc1.class, new ModelSJLittRc(),
-				"Rc1_",
+				Swedish_PackEntityLocoElectricSJLittRc4.class, new ModelSJLittRc(),
+				"Rc4_",
 				new float[] {-4.8F, -0.5F, 0.0F},
 				new float[]{0F, 180F, 180F},
 				null){
@@ -116,59 +110,42 @@ public class Swedish_PackEntityLocoElectricSJLittRc1 extends ElectricTrain {
 				String texturePath = "";
 				switch (colorAsString.toLowerCase()) {
 					case "yellow":
-						texturePath = "textures/trains/Rc1_/Rc1_sjo_Mno";
+						texturePath = "textures/trains/Rc4_/Rc4_GCG_Mno";
 						break;
 					case "blue":
-						texturePath = "textures/trains/Rc1_/Rc1_sjo_Mfo";
+						texturePath = "textures/trains/Rc4_/Rc4_GCG_Mfo";
 						break;
 					case "green":
-						texturePath = "textures/trains/Rc1_/Rc1_sjo_Mbo";
+						texturePath = "textures/trains/Rc4_/Rc4_GCG_Mbo";
 						break;
 					case "black":
-						texturePath = "textures/trains/Rc1_/Rc1_sjb_Mno";
+						texturePath = "textures/trains/Rc4_/Rc4_GCB_Mno";
 						break;
 					case "white":
-						texturePath = "textures/trains/Rc1_/Rc1_sjb_Mfo";
+						texturePath = "textures/trains/Rc4_/Rc4_GCB_Mfo";
 						break;
 					case "grey":
-						texturePath = "textures/trains/Rc1_/Rc1_sjb_Mbo";
+						texturePath = "textures/trains/Rc4_/Rc4_GCB_Mbo";
 						break;
 					case "magenta":
-						texturePath = "textures/trains/Rc1_/Rc1_sjo2vm_Mno";
+						texturePath = "textures/trains/Rc4_/Rc4_GCO_Mno";
 						break;
 					case "lightblue":
-						texturePath = "textures/trains/Rc1_/Rc1_sjo2vm_Mfo";
+						texturePath = "textures/trains/Rc4_/Rc4_GCO_Mfo";
 						break;
 					case "lime":
-						texturePath = "textures/trains/Rc1_/Rc1_sjo2vm_Mbo";
+						texturePath = "textures/trains/Rc4_/Rc4_GCO_Mbo";
 						break;
 					case "lightgrey":
-						texturePath = "textures/trains/Rc1_/Rc1_GCB_Mno";
+						texturePath = "textures/trains/Rc4_/Rc4_Elektra_Mno";
 						break;
 					case "cyan":
-						texturePath = "textures/trains/Rc1_/Rc1_GCB_Mfo";
+						texturePath = "textures/trains/Rc4_/Rc4_Elektra_Mfo";
 						break;
 					case "pink":
-						texturePath = "textures/trains/Rc1_/Rc1_GCB_Mbo";
+						texturePath = "textures/trains/Rc4_/Rc4_Elektra_Mbo";
 						break;
-					case "purple":
-						texturePath = "textures/trains/Rc1_/Rc1_sjblixt_Mno";
-						break;
-					case "brown":
-						texturePath = "textures/trains/Rc1_/Rc1_sjblixt_Mfo";
-						break;
-					case "orange":
-						texturePath = "textures/trains/Rc1_/Rc1_sjblixt_Mbo";
-						break;
-					case "red":
-						texturePath = "textures/trains/Rc1_/Rc1_Trafik_Mno";
-						break;
-					case "skin16":
-						texturePath = "textures/trains/Rc1_/Rc1_Trafik_Mfo";
-						break;
-					case "skin17":
-						texturePath = "textures/trains/Rc1_/Rc1_Trafik_Mbo";
-						break;
+
 
 
 

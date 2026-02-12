@@ -634,7 +634,16 @@ item.tc:minecartShay3Truck	3 Truck Shay	com.jcirmodelsquad.tcjcir.vehicles.locom
 item.tc:minecartSkook	Skookum	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamSkook	skookum
 item.tc:minecartVBShay2	2TruckVerticalBoilerShay	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamVBShay2	vbshay2_
 item.tc:minecartSteelSlabFlat	SteelSlabFlat	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SteelSlabFlat	steelslab15_
+item.swedishpack:minecartOBBLitt1043	ÖBB Litterera 1043	swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricOBBLitt1043	Obb1043_
 item.swedishpack:minecartSJLittRc1	SJ Litterera Rc1	swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricSJLittRc1	Rc1_
+item.swedishpack:minecartSJLittRc2	SJ Litterera Rc2	swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricSJLittRc2	Rc2_
+item.swedishpack:minecartOBBLittRc2	SJ Litterera Rc2obb	swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricSJLittRc2obb	Rc2obb_
+item.swedishpack:minecartSJLittRc3	SJ Litterera Rc3	swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricSJLittRc3	Rc3_
+item.swedishpack:minecartSJLittRc4	SJ Litterera Rc4	swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricSJLittRc4	Rc4_
+item.swedishpack:minecartSJLittRc5	SJ Litterera Rc5	swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricSJLittRc5	Rc5_
+item.swedishpack:minecartSJLittRc6	SJ Litterera Rc6	swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricSJLittRc6	Rc6_
+item.swedishpack:minecartSJLittRc7	SJ Litterera Rc7	swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricSJLittRc7	Rc7_
+item.swedishpack:minecartTGOJLittBt	TGOJ Litterera Bt	swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricTGOJLittBt	Bt_
 item.tc:minecartTender10k	Tender10k	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.Tender10k	wp_10k_
 item.tc:minecartTender460	Tender460	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.Tender460	4-6-0_tender_
 item.tc:minecartWCPBaler	WCPBaler	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderBaler	wcp_baler

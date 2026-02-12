@@ -13,8 +13,10 @@ import org.apache.logging.log4j.Logger;
 import swedishpack.common.core.handler.AddonPackRollingStockEntityHandler;
 import swedishpack.common.creativetabs.CreativeTabAddonPack;
 import swedishpack.common.library.AddonPackItems;
+import swedishpack.common.library.SwedishPackLockoutGroups;
 import swedishpack.common.library.Swedish_PackAddonInfo;
 import swedishpack.common.recipes.AddonTableRecipeRegister;
+import train.common.Traincraft;
 import train.common.core.creativetab.GenericCreativeTabTraincraft;
 
 
@@ -34,7 +36,7 @@ public class SwedishPack
     public void preInit(FMLPreInitializationEvent event)
     {
         addonLog.info("preInit Addon Pack -" + Swedish_PackAddonInfo.modName);
-        addonTabOne = new GenericCreativeTabTraincraft("Swedish Pack", Swedish_PackAddonInfo.modID, "apple");
+        addonTabOne = new GenericCreativeTabTraincraft("Swedish Pack", Swedish_PackAddonInfo.modID, "trains/Rc1-Icon");
 
         AddonPackItems addonPackItems = new AddonPackItems();
         AddonPackRollingStockEntityHandler entityHandler = new AddonPackRollingStockEntityHandler();
@@ -54,5 +56,8 @@ public class SwedishPack
     public void postInit(FMLPostInitializationEvent event)
     {
         addonLog.info("postInit Addon Pack -" + Swedish_PackAddonInfo.modName);
+        for (SwedishPackLockoutGroups group : SwedishPackLockoutGroups.values()) {
+            Traincraft.lockoutPermissionsUtil.AddLockGroup(group);
+        }
     }
 }
