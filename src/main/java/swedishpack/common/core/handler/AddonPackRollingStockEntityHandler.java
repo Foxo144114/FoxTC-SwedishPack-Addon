@@ -2,7 +2,7 @@ package swedishpack.common.core.handler;
 
 import swedishpack.common.SwedishPack;
 import swedishpack.common.library.AddonRollingStockItems;
-import swedishpack.common.rollingStock.Swedish_PackEntityLocoElectricSJLittRc1;
+import swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittRc1;
 import swedishpack.common.rollingStock.Wagons.*;
 import swedishpack.common.rollingStock.Locomotives.Electric.*;
 import train.common.Traincraft;

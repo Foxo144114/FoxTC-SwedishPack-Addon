@@ -9,12 +9,13 @@ import train.client.render.register.TrainRenderRecord;
 import train.common.Traincraft;
 import train.common.api.AbstractStandardFreightCar;
 import train.common.entity.CargoManager;
+import train.common.enums.CargoItemFilter;
 
 public class Swedish_PackEntityFreightSJLittDm3 extends AbstractStandardFreightCar {
 	
 	public Swedish_PackEntityFreightSJLittDm3(World world) {
 		super(world);
-
+		cargoFilterCategory = CargoItemFilter.REDSTONE;
 	}
 
 	@Override
