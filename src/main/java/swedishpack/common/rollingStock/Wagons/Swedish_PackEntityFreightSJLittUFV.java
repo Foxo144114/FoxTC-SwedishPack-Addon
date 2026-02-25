@@ -1,0 +1,62 @@
+package swedishpack.common.rollingStock.Wagons;
+
+import net.minecraft.entity.item.EntityMinecart;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.inventory.IInventory;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.nbt.NBTTagList;
+import net.minecraft.world.World;
+import net.minecraftforge.common.util.Constants;
+import train.common.Traincraft;
+import train.common.api.AbstractStandardFreightCar;
+import train.common.api.Freight;
+import train.common.entity.CargoManager;
+import train.common.library.GuiIDs;
+
+public class Swedish_PackEntityFreightSJLittUFV extends AbstractStandardFreightCar {
+	
+	public Swedish_PackEntityFreightSJLittUFV(World world) {
+		super(world);
+
+	}
+
+	@Override
+	public CargoManager setupCargoManager() {
+		return null;
+	}
+
+	@Override
+	public void setupTextureDescription() {
+
+	}
+
+
+	public Swedish_PackEntityFreightSJLittUFV(World world, double d, double d1, double d2) {
+		this(world);
+		setPosition(d, d1 + (double) yOffset, d2);
+		motionX = 0.0D;
+		motionY = 0.0D;
+		motionZ = 0.0D;
+		prevPosX = d;
+		prevPosY = d1;
+		prevPosZ = d2;
+	}
+
+	
+
+	
+	@Override
+	public String getInventoryName() {
+		return "SJ Litt UFV";
+	}
+
+	
+
+	@Override
+	public float getOptimalDistance(EntityMinecart cart) {
+		return 2.125F;
+	}
+
+
+}
