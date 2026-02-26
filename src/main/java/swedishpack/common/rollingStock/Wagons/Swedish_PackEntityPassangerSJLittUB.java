@@ -3,23 +3,18 @@ package swedishpack.common.rollingStock.Wagons;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
-import swedishpack.client.render.models.ModelSJLittUDFo20;
+import swedishpack.client.render.models.ModelSJLittUb;
 import swedishpack.common.library.Swedish_PackAddonInfo;
 import train.client.render.register.TrainRenderRecord;
 import train.common.Traincraft;
-import train.common.api.AbstractStandardFreightCar;
-import train.common.entity.CargoManager;
+import train.common.api.AbstractPassengerCombineCar;
 
-public class Swedish_PackEntityFreightSJLittUDFo20 extends AbstractStandardFreightCar {
-	
-	public Swedish_PackEntityFreightSJLittUDFo20(World world) {
+
+public class Swedish_PackEntityPassangerSJLittUB extends AbstractPassengerCombineCar {
+
+	public Swedish_PackEntityPassangerSJLittUB(World world) {
 		super(world);
 
-	}
-
-	@Override
-	public CargoManager setupCargoManager() {
-		return null;
 	}
 
 	@Override
@@ -32,8 +27,8 @@ public class Swedish_PackEntityFreightSJLittUDFo20 extends AbstractStandardFreig
 	public void onRenderInsertRecord()
 	{
 		Traincraft.traincraftRegistry.RegisterRollingStockModel(new TrainRenderRecord(Swedish_PackAddonInfo.modID,
-				Swedish_PackEntityFreightSJLittUDFo20.class, new ModelSJLittUDFo20(),
-				"UDFo20_",
+				Swedish_PackEntityPassangerSJLittUB.class, new ModelSJLittUb(),
+				"UB_",
 				new float[] {-3.6F, -0.5F, 0.0F},
 				new float[]{0F, 180F, 180F},
 				null){
@@ -42,10 +37,11 @@ public class Swedish_PackEntityFreightSJLittUDFo20 extends AbstractStandardFreig
 				String texturePath = "";
 				switch (colorAsString.toLowerCase()) {
 					case "blue":
-						texturePath = "textures/trains/Wagons/U_Wagons/Railbus_/UDFo20_/UDFo20";
+						texturePath = "textures/trains/Wagons/U_Wagons/Railbus_/UB_/Ub_South";
 						break;
-
-
+					case "green":
+						texturePath = "textures/trains/Wagons/U_Wagons/Railbus_/UB_/Ub_North";
+						break;
 				}
 				texturePath += ".png";
 
@@ -56,18 +52,16 @@ public class Swedish_PackEntityFreightSJLittUDFo20 extends AbstractStandardFreig
 
 
 
-		@Override
-		public String getInventoryName() {
-		return "SJ UDFo20";
+	@Override
+	public String getInventoryName() {
+		return "SJ UBF6Y";
 	}
 
 
 
-		@Override
-		public float getOptimalDistance(EntityMinecart cart) {
+	@Override
+	public float getOptimalDistance(EntityMinecart cart) {
 		return 4.175F;
 	}
 
-
-
-	}
+}
