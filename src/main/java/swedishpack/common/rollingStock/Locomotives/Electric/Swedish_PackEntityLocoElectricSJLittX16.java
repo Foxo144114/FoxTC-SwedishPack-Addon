@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricSJLittX16 extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricSJLittX16(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelSJLittX16Panto.class,
@@ -40,9 +41,14 @@ public class Swedish_PackEntityLocoElectricSJLittX16 extends ElectricTrain {
 					},
 
 
-			}));
+			}).setDefaultOverride(1));
 	}
-
+	public void setupTextureDescription() {
+		InsertTexture(0, "South Plow, Normal Window");
+		InsertTexture(1, "North Plow, Normal Window");
+		InsertTexture(2, "South Plow, Big Window");
+		InsertTexture(3, "North Plow, Big Window");
+	}
 	@Override
 	public void updateRiderPosition() { TraincraftUtil.updateRider(this, 5.2, -0.1, 0.3); }
 

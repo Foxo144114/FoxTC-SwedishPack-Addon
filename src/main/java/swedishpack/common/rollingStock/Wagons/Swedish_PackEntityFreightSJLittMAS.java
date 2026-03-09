@@ -18,7 +18,7 @@ public class Swedish_PackEntityFreightSJLittMAS extends AbstractStandardFreightC
 	
 	public Swedish_PackEntityFreightSJLittMAS(World world) {
 		super(world);
-
+		setupTextureDescription();
 	}
 
 	@Override
@@ -28,7 +28,8 @@ public class Swedish_PackEntityFreightSJLittMAS extends AbstractStandardFreightC
 
 	@Override
 	public void setupTextureDescription() {
-
+		InsertTexture(0, "Closed");
+		InsertTexture(1, "Open");
 	}
 
 

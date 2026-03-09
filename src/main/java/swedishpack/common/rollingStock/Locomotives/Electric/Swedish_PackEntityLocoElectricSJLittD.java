@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricSJLittD extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricSJLittD(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelSJLittDPanto.class,
@@ -47,9 +48,13 @@ public class Swedish_PackEntityLocoElectricSJLittD extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
+			}).setDefaultOverride(1));
 	}
-
+	public void setupTextureDescription() {
+		InsertTexture(0, "No Bridge");
+		InsertTexture(1, "StålParantes");
+		InsertTexture(2, "Big Bridge");
+	}
 	@Override
 	public void updateRiderPosition() { TraincraftUtil.updateRider(this, 3.5, 0.2, 0.3); }
 

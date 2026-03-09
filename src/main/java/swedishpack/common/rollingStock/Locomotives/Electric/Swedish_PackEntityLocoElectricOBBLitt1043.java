@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricOBBLitt1043 extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricOBBLitt1043(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelRcPanto.class,
@@ -47,10 +48,23 @@ public class Swedish_PackEntityLocoElectricOBBLitt1043 extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
+			}).setDefaultOverride(1));
 	}
 
-
+	public void setupTextureDescription() {
+		InsertTexture(0, "70s Livery, No mirrors out");
+		InsertTexture(1, "70s Livery, Front mirrors out");
+		InsertTexture(2, "70s Livery, Back mirrors out");
+		InsertTexture(3, "70s Livery Modern, No mirrors out");
+		InsertTexture(4, "70s Livery Modern, Front mirrors out");
+		InsertTexture(5, "70s Livery Modern, Back mirrors out");
+		InsertTexture(6, "80s Livery, No mirrors out");
+		InsertTexture(7, "80s Livery, Front mirrors out");
+		InsertTexture(8, "80s Livery, Back mirrors out");
+		InsertTexture(9, "90s Livery, No mirrors out");
+		InsertTexture(10, "90s Livery, Front mirrors out");
+		InsertTexture(11, "90s Livery, Back mirrors out");
+	}
 	@Override
 	public void updateRiderPosition() { TraincraftUtil.updateRider(this, 4.8, 0.2, 0.3); }
 

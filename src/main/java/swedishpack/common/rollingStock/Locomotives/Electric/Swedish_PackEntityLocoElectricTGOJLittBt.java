@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricTGOJLittBt extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricTGOJLittBt(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelTGOJLittBtPanto.class,
@@ -47,9 +48,25 @@ public class Swedish_PackEntityLocoElectricTGOJLittBt extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
+			}).setDefaultOverride(1));
 	}
-
+	public void setupTextureDescription() {
+		InsertTexture(0, "TGOJ Green, No mirrors out");
+		InsertTexture(1, "TGOJ Green, Front mirrors out");
+		InsertTexture(2, "TGOJ Green, Back mirrors out");
+		InsertTexture(3, "TGOJ Green FactorySpec, No mirrors out");
+		InsertTexture(4, "TGOJ Green FactorySpec, Front mirrors out");
+		InsertTexture(5, "TGOJ Green FactorySpec, Back mirrors out");
+		InsertTexture(6, "TGOJ Orange, No mirrors out");
+		InsertTexture(7, "TGOJ Orange, Front mirrors out");
+		InsertTexture(8, "TGOJ Orange, Back mirrors out");
+		InsertTexture(9, "TGOJ Orange Modern, No mirrors out");
+		InsertTexture(10, "TGOJ Orange Modern, Front mirrors out");
+		InsertTexture(11, "TGOJ Orange Modern, Back mirrors out");
+		InsertTexture(12, "SJ Orange, No mirrors out");
+		InsertTexture(13, "SJ Orange, Front mirrors out");
+		InsertTexture(14, "SJ Orange, Back mirrors out");
+	}
 	@Override
 	public String transportCountry() {
 		return "SE";

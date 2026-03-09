@@ -14,7 +14,7 @@ public class Swedish_PackEntityFreightSJLittOs_w extends AbstractStandardFreight
 	
 	public Swedish_PackEntityFreightSJLittOs_w(World world) {
 		super(world);
-
+		setupTextureDescription();
 	}
 
 	@Override
@@ -24,7 +24,8 @@ public class Swedish_PackEntityFreightSJLittOs_w extends AbstractStandardFreight
 
 	@Override
 	public void setupTextureDescription() {
-
+		InsertTexture(0, "Without Walls");
+		InsertTexture(1, "With Walls");
 	}
 	@Override
 	public void onRenderInsertRecord()

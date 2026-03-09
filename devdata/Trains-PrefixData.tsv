@@ -312,14 +312,14 @@ item.tc:minecartFreightCenterBeam_Empty	Freight Center Beam Empty	train.common.e
 item.tc:minecartFreightCenterBeam_Wood_1	Freight Center Beam Wood1	train.common.entity.rollingStock.freight.EntityFreightCenterbeam_Wood_1	freight_centerbeam_wood_1_
 item.tc:minecartFreightCenterBeam_Wood_2	Freight Center Beam Wood2	train.common.entity.rollingStock.freight.EntityFreightCenterbeam_Wood_2	freight_centerbeam_wood_2_
 item.tc:minecartFreightClosed	Freight Cart Closed RedBrown	train.common.entity.rollingStock.freight.EntityFreightClosed	freightClosed
-item.tc:minecartDenverRioGrandeBaggage	Denver Rio Grande Baggage	train.common.entity.rollingStock.EntityFreightDenverRioGrande	drg_baggage_
+item.tc:minecartDenverRioGrandeBaggage	Denver Rio Grande Baggage	train.common.entity.rollingStock.passenger.baggagecar.EntityFreightDenverRioGrande	drg_baggage_
 item.tc:minecartFreightDepressedFlatbed	Freight Depressed Flatcar	train.common.entity.rollingStock.freight.EntityFreightDepressedFlatbed	depressed_flatbed_
 item.tc:minecartGS4_Baggage	Freight Cart GS4 Baggage	train.common.entity.rollingStock.passenger.baggagecar.EntityFreightGS4_Baggage	GS4_baggage_
 item.tc:minecartFreightGTNG	Freight GTNG Ore Wagon	train.common.entity.rollingStock.EntityFreightGTNG	GTNGOreWagon
-item.tc:minecartFreightGermanPost	Freight German Post	train.common.entity.rollingStock.EntityFreightGermanPost	german_post_
+item.tc:minecartFreightGermanPost	Freight German Post	train.common.entity.rollingStock.passenger.rpo.EntityFreightGermanPost	german_post_
 item.tc:minecartFreightGondola_DB	Freight Gondola DB	train.common.entity.rollingStock.freight.EntityFreightGondola_DB	freightGondola_DB_
 item.tc:minecartGrain	Freight Hopper Green	train.common.entity.rollingStock.freight.EntityFreightGrain	hopper_
-item.tc:minecartHeavyweightMailcar	Heavyweight Freight Car	train.common.entity.rollingStock.EntityFreightHeavyweight	heavyweight_mailcar
+item.tc:minecartHeavyweightMailcar	Heavyweight Freight Car	train.common.entity.rollingStock.passenger.rpo.EntityFreightHeavyweight	heavyweight_mailcar
 item.tc:minecartHeavyweightFreight	Freight Heavyweight Baggage	train.common.entity.rollingStock.passenger.baggagecar.EntityFreightHeavyweightBaggage	heavyweightBoxcar_
 item.tc:minecartFreightHopperUS	Freight Hopper US	train.common.entity.rollingStock.freight.EntityFreightHopperUS	freightHopperUS_
 item.tc:minecartIceWagon	Freight Ice Wagon	train.common.entity.rollingStock.freight.EntityFreightIceWagon	icewagon
@@ -634,8 +634,13 @@ item.tc:minecartShay3Truck	3 Truck Shay	com.jcirmodelsquad.tcjcir.vehicles.locom
 item.tc:minecartSkook	Skookum	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamSkook	skookum
 item.tc:minecartVBShay2	2TruckVerticalBoilerShay	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamVBShay2	vbshay2_
 item.tc:minecartSteelSlabFlat	SteelSlabFlat	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SteelSlabFlat	steelslab15_
+item.swedishpack:minecartSJLittQ12	Litterera Q12	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityEntityWagonSJLittQ12	SJLittQ12_
 item.swedishpack:minecartSJLittDm3	Litterera Dm3	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittDm3	Dm3_
+item.swedishpack:minecartSJLittElos	Litterera Elos	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittElos	SJLittElos_
+item.swedishpack:minecartSJLittG	Litterera G	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittG	SJLittG_
 item.swedishpack:minecartSJLittLgns_081	Litterera Lgns-081	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittLgns_081	Lgns_081_
+item.swedishpack:minecartSJLittLgs	Litterera Lgs	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittLgs	Lgs
+item.swedishpack:minecartSJLittM1	Litterera M1	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittM1	SJLittM1_
 item.swedishpack:minecartSJLittO	Litterera O	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittO	SJLittO_
 item.swedishpack:minecartSJLittOa	Litterera Oa	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittOaVagn	SJLittOaVagn_
 item.swedishpack:minecartSJLittOs	Litterera Os	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityFreightSJLittOs	SJLittO_
@@ -673,8 +678,16 @@ item.swedishpack:minecartSJLittRc6	SJ Litterera Rc6	swedishpack.common.rollingSt
 item.swedishpack:minecartSJLittRc7	SJ Litterera Rc7	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittRc7	Rc7_
 item.swedishpack:minecartSJLittX16	SJ Litterera X16	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricSJLittX16	X16_
 item.swedishpack:minecartTGOJLittBt	TGOJ Litterera Bt	swedishpack.common.rollingStock.Locomotives.Electric.Swedish_PackEntityLocoElectricTGOJLittBt	Bt_
+item.swedishpack:minecartSJLittB1909	SJ Litterera B1909	swedishpack.common.rollingStock.Locomotives.Steam.Swedish_PackEntityLocoSteamSJLittB1909	B1909_
+item.swedishpack:minecartSJLittB1919	SJ Litterera B1919	swedishpack.common.rollingStock.Locomotives.Steam.Swedish_PackEntityLocoSteamSJLittB1919	B1909_
+item.swedishpack:minecartSJLittE	SJ Litterera E	swedishpack.common.rollingStock.Locomotives.Steam.Swedish_PackEntityLocoSteamSJLittE	E_
+item.swedishpack:minecartSJLittE2	SJ Litterera E2	swedishpack.common.rollingStock.Locomotives.Steam.Swedish_PackEntityLocoSteamSJLittE2	E2_
+item.swedishpack:minecartSJLittF	SJ Litterera F	swedishpack.common.rollingStock.Locomotives.Steam.Swedish_PackEntityLocoSteamSJLittF	F_
 item.swedishpack:minecartSJLittUBF6Y	Litterera UBF6Y	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityPassangerCombiSJLittUBF6Y	UBF6Y_
 item.swedishpack:minecartSJLittUb	Litterera Ub	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityPassangerSJLittUB	UB_
+item.swedishpack:minecartSJLittATender	Litterera A Tender	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityTenderSJLittA	SJLittATender_
+item.swedishpack:minecartSJLittCTender	Litterera C Tender	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityTenderSJLittC	SJLittCTender_
+item.swedishpack:minecartSJLittFTender	Litterera F Tender	swedishpack.common.rollingStock.Wagons.Swedish_PackEntityTenderSJLittF	SJLittFTender_
 item.tc:minecartTender10k	Tender10k	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.Tender10k	wp_10k_
 item.tc:minecartTender460	Tender460	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.Tender460	4-6-0_tender_
 item.tc:minecartWCPBaler	WCPBaler	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderBaler	wcp_baler

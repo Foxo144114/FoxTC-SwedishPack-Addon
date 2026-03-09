@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricSJLittRc2 extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricSJLittRc2(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelRcPanto.class,
@@ -47,10 +48,23 @@ public class Swedish_PackEntityLocoElectricSJLittRc2 extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
+			}).setDefaultOverride(1));
 	}
 
-
+	public void setupTextureDescription() {
+		InsertTexture(0, "SJ Blue, No mirrors out");
+		InsertTexture(1, "SJ Blue, Front mirrors out");
+		InsertTexture(2, "SJ Blue, Back mirrors out");
+		InsertTexture(3, "SJ Orange, No mirrors out");
+		InsertTexture(4, "SJ Orange, Front mirrors out");
+		InsertTexture(5, "SJ Orange, Back mirrors out");
+		InsertTexture(6, "SJ Blue Thunder, No mirrors out");
+		InsertTexture(7, "SJ Blue Thunder, Front mirrors out");
+		InsertTexture(8, "SJ Blue Thunder, Back mirrors out");
+		InsertTexture(9, "Tågab, No mirrors out");
+		InsertTexture(10, "Tågab, Front mirrors out");
+		InsertTexture(11, "Tågab, Back mirrors out");
+	}
 
 
 	@Override

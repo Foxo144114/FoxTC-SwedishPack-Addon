@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricSJLittDu2 extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricSJLittDu2(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelSJLittDu2Panto.class,
@@ -47,9 +48,13 @@ public class Swedish_PackEntityLocoElectricSJLittDu2 extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
+			}).setDefaultOverride(1));
 	}
-
+	public void setupTextureDescription() {
+		InsertTexture(0, "Small Bridge");
+		InsertTexture(1, "No Bridge");
+		InsertTexture(2, "White Windows, Big Bridge");
+	}
 
 
 	@Override

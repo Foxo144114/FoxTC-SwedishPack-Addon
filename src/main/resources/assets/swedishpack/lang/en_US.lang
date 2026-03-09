@@ -132,6 +132,14 @@ entity.swedishpack.SJ_Litt_C_Tender.name=C Tender (SJ)
 entity.swedishpack.SJ_Litt_F_Tender.name=F Tender (SJ)
 entity.swedishpack.Litterera Lgns-081.name=Lgns-081 (GC)
 
+
+tile.swedishpack:SvensktVaxelKlotGreySide1.name=VäxelKlot Grey (Side 1)
+tile.swedishpack:SvensktVaxelKlotGreySide2.name=VäxelKlot Grey (Side 2)
+tile.swedishpack:SvensktVaxelKlotGreenSide1.name=VäxelKlot Green (Side 1)
+tile.swedishpack:SvensktVaxelKlotGreenSide2.name=VäxelKlot Green (Side 2)
+tile.swedishpack:SvensktVaxelKlotBlackSide1.name=VäxelKlot Black (Side 1)
+tile.swedishpack:SvensktVaxelKlotBlackSide2.name=VäxelKlot Black (Side 2)
+
 train.owner.name=You are not the owner!
 train.locked.name=Locked
 train.unlocked.name=Unlocked

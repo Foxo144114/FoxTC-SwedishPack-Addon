@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoDieselSJLittT23 extends DieselTrain {
 
 	public Swedish_PackEntityLocoDieselSJLittT23(World world) {
 		super(world, Traincraft.traincraftRegistry.getTrainRecord(Swedish_PackEntityLocoDieselSJLittT23.class).getTankCapacity(), LiquidManager.dieselFilter());
+		setupTextureDescription();
 	}
 
 	@Override
@@ -41,6 +42,29 @@ public class Swedish_PackEntityLocoDieselSJLittT23 extends DieselTrain {
 	@Override
 	public String getInventoryName() {
 		return "SJ T23";
+	}
+
+	public void setupTextureDescription() {
+		InsertTexture(0, "SJ, Service, No Slickepinnar, With Plow");
+		InsertTexture(1, "SJ, Service, No Slickepinnar, Without Plow");
+		InsertTexture(2, "SJ, Maintinence, No Slickepinnar, With Plow");
+		InsertTexture(3, "SJ, Maintinence, No Slickepinnar, Without Plow");
+		InsertTexture(4, "SJ, Service, Slickepinnar, With Plow");
+		InsertTexture(5, "SJ, Service, Slickepinnar, Without Plow");
+		InsertTexture(6, "SJ, Maintinence, Slickepinnar, With Plow");
+		InsertTexture(7, "SJ, Maintinence, Slickepinnar, Without Plow");
+		InsertTexture(8, "GBBJ, Service, With Plow");
+		InsertTexture(9, "GBBJ, Service, Without Plow");
+		InsertTexture(10, "GBBJ, Maintinence, With Plow");
+		InsertTexture(11, "GBBJ, Maintinence, Without Plow");
+		InsertTexture(12, "Green, Service, With Plow");
+		InsertTexture(13, "Green, Service, Without Plow");
+		InsertTexture(14, "Green, Maintinence, With Plow");
+		InsertTexture(15, "Green, Maintinence, Without Plow");
+		InsertTexture(16, "Gulfiber, Service, With Plow");
+		InsertTexture(17, "Gulfiber, Service, Without Plow");
+		InsertTexture(18, "Gulfiber, Maintinence, With Plow");
+		InsertTexture(19, "Gulfiber, Maintinence, Without Plow");
 	}
 
 	@Override

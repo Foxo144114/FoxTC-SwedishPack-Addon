@@ -49,9 +49,30 @@ public class Swedish_PackEntityLocoElectricSJLittRc3 extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
+			}).setDefaultOverride(1));
 	}
 	public void setupTextureDescription() {
+		InsertTexture(0, "SSRT, No mirrors out");
+		InsertTexture(1,  "SSRT, Front mirrors out");
+		InsertTexture(2,  "SSRT, Back mirrors out");
+		InsertTexture(3, "SJ Black, No mirrors out");
+		InsertTexture(4, "SJ Black, Front mirrors out");
+		InsertTexture(5, "SJ Black, Back mirrors out");
+		InsertTexture(6, "Hectorrail, No mirrors out");
+		InsertTexture(7, "Hectorrail, Front mirrors out");
+		InsertTexture(8, "Hectorrail, Back mirrors out");
+		InsertTexture(9, "Tågab Grey, No mirrors out");
+		InsertTexture(10, "Tågab Grey, Front mirrors out");
+		InsertTexture(11, "Tågab Grey, Back mirrors out");
+		InsertTexture(12, "SJ Blue Thunder, No mirrors out");
+		InsertTexture(13,  "SJ Blue Thunder, Front mirrors out");
+		InsertTexture(14,  "SJ Blue Thunder, Back mirrors out");
+		InsertTexture(15, "SJ Blue, No mirrors out");
+		InsertTexture(16, "SJ Blue, Front mirrors out");
+		InsertTexture(17, "SJ Blue, Back mirrors out");
+		InsertTexture(18, "SJ Orange, No mirrors out");
+		InsertTexture(19, "SJ Orange, Front mirrors out");
+		InsertTexture(20, "SJ Orange, Back mirrors out");
 		InsertTexture(21, "FarTrEch PaintJob", SwedishPackLockoutGroups.FTR);
 		InsertTexture(22, "FarTrEch PaintJob", SwedishPackLockoutGroups.FTR);
 		InsertTexture(23, "FarTrEch PaintJob", SwedishPackLockoutGroups.FTR);

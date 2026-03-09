@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricSJLittOa extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricSJLittOa(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelSJLittOaPanto.class,
@@ -40,9 +41,12 @@ public class Swedish_PackEntityLocoElectricSJLittOa extends ElectricTrain {
 					},
 
 
-			}));
+			}).setDefaultOverride(1));
 	}
-
+	public void setupTextureDescription() {
+		InsertTexture(0, "Oa, No Plow");
+		InsertTexture(1, "Oa, With Plow");
+	}
 	@Override
 	public String transportCountry() {
 		return "SE";

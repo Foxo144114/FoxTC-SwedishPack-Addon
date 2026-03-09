@@ -14,7 +14,7 @@ public class Swedish_PackEntityFreightSJLittUDFo20 extends AbstractStandardFreig
 	
 	public Swedish_PackEntityFreightSJLittUDFo20(World world) {
 		super(world);
-
+		setupTextureDescription();
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class Swedish_PackEntityFreightSJLittUDFo20 extends AbstractStandardFreig
 
 	@Override
 	public void setupTextureDescription() {
-
+		InsertTexture(0, "UDFo20");
 	}
 
 

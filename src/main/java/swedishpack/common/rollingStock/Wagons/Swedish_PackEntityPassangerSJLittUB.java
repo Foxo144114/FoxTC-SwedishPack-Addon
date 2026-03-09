@@ -14,12 +14,12 @@ public class Swedish_PackEntityPassangerSJLittUB extends AbstractPassengerCombin
 
 	public Swedish_PackEntityPassangerSJLittUB(World world) {
 		super(world);
-
+		setupTextureDescription();
 	}
 
 	@Override
 	public void setupTextureDescription() {
-
+		InsertTexture(0, "UB");
 	}
 
 

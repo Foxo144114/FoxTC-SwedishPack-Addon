@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoDieselSJLittT31 extends DieselTrain {
 
 	public Swedish_PackEntityLocoDieselSJLittT31(World world) {
 		super(world, Traincraft.traincraftRegistry.getTrainRecord(Swedish_PackEntityLocoDieselSJLittT31.class).getTankCapacity(), LiquidManager.dieselFilter());
+		setupTextureDescription();
 	}
 
 	@Override
@@ -41,6 +42,13 @@ public class Swedish_PackEntityLocoDieselSJLittT31 extends DieselTrain {
 	@Override
 	public String getInventoryName() {
 		return "SJ T31";
+	}
+
+	public void setupTextureDescription() {
+		InsertTexture(0, "Service, With Plow");
+		InsertTexture(1, "Service, Without Plow");
+		InsertTexture(2, "Maintinence, With Plow");
+		InsertTexture(3, "Maintinence, Without Plow");
 	}
 
 	@Override

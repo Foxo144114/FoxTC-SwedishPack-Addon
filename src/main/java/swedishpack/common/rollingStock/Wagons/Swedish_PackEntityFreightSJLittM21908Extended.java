@@ -18,7 +18,7 @@ public class Swedish_PackEntityFreightSJLittM21908Extended extends AbstractStand
 	
 	public Swedish_PackEntityFreightSJLittM21908Extended(World world) {
 		super(world);
-
+		setupTextureDescription();
 	}
 
 	@Override
@@ -28,7 +28,8 @@ public class Swedish_PackEntityFreightSJLittM21908Extended extends AbstractStand
 
 	@Override
 	public void setupTextureDescription() {
-
+		InsertTexture(0, "Closed");
+		InsertTexture(1, "Open");
 	}
 
 

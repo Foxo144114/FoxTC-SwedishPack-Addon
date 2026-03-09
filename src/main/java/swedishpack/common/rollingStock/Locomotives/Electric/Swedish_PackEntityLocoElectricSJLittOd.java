@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricSJLittOd extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricSJLittOd(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelSJLittOdPanto.class,
@@ -47,9 +48,12 @@ public class Swedish_PackEntityLocoElectricSJLittOd extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
+			}).setDefaultOverride(1));
 	}
-
+	public void setupTextureDescription() {
+		InsertTexture(0, "Od, No Plow");
+		InsertTexture(1, "Od, With Plow");
+	}
 	@Override
 	public String transportCountry() {
 		return "SE";
@@ -84,10 +88,10 @@ public class Swedish_PackEntityLocoElectricSJLittOd extends ElectricTrain {
 				String texturePath = "";
 				switch (colorAsString.toLowerCase()) {
 					case "yellow":
-						texturePath = "textures/trains/Locomotives/Electric/Od_/SJLittOd_WP";
+						texturePath = "textures/trains/Locomotives/Electric/Od_/SJLittOd_NP";
 						break;
 					case "blue":
-						texturePath = "textures/trains/Locomotives/Electric/Od_/SJLittOd_NP";
+						texturePath = "textures/trains/Locomotives/Electric/Od_/SJLittOd_WP";
 						break;
 				}
 				texturePath += ".png";

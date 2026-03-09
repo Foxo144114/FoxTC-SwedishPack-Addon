@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoDieselSJLittT21 extends DieselTrain {
 
 	public Swedish_PackEntityLocoDieselSJLittT21(World world) {
 		super(world, Traincraft.traincraftRegistry.getTrainRecord(Swedish_PackEntityLocoDieselSJLittT21.class).getTankCapacity(), LiquidManager.dieselFilter());
+		setupTextureDescription();
 	}
 
 	@Override
@@ -43,10 +44,18 @@ public class Swedish_PackEntityLocoDieselSJLittT21 extends DieselTrain {
 		return "SJ T21";
 	}
 
+	public void setupTextureDescription() {
+		InsertTexture(0, "Service, With Plow");
+		InsertTexture(1, "Service, Without Plow");
+		InsertTexture(2, "Maintinence, With Plow");
+		InsertTexture(3, "Maintinence, Without Plow");
+	}
+
 	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
 		return 1.25F;
 	}
+
 	@Override
 	public void onRenderInsertRecord()
 	{

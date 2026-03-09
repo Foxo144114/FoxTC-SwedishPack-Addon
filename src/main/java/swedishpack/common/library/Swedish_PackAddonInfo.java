@@ -16,5 +16,5 @@ public class Swedish_PackAddonInfo
     public static final String SoundLocation = "swedishpack/sounds.json";
     public static final String resourceLocation = "swedishpack";
     public static final String trainsPrefix = "textures/trains/";
-    public static final String modelTexPrefix = "textures/models/";
+    public static final String modelTexPrefix = "textures/blocks/";
 }

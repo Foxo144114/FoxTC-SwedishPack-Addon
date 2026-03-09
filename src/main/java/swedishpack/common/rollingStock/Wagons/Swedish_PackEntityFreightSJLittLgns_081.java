@@ -16,7 +16,7 @@ public class Swedish_PackEntityFreightSJLittLgns_081 extends AbstractStandardFre
 
 	public Swedish_PackEntityFreightSJLittLgns_081(World world) {
 		super(world);
-
+		setupTextureDescription();
 	}
 
 	@Override
@@ -127,7 +127,8 @@ public class Swedish_PackEntityFreightSJLittLgns_081 extends AbstractStandardFre
 
 	@Override
 	public void setupTextureDescription() {
-
+		InsertTexture(0, "Blue");
+		InsertTexture(1, "Green");
 	}
 
 	@Override

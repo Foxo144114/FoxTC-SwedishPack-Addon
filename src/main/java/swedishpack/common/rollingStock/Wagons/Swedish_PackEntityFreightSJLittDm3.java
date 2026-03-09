@@ -15,6 +15,7 @@ public class Swedish_PackEntityFreightSJLittDm3 extends AbstractStandardFreightC
 	
 	public Swedish_PackEntityFreightSJLittDm3(World world) {
 		super(world);
+		setupTextureDescription();
 		cargoFilterCategory = CargoItemFilter.REDSTONE;
 	}
 
@@ -25,7 +26,9 @@ public class Swedish_PackEntityFreightSJLittDm3 extends AbstractStandardFreightC
 
 	@Override
 	public void setupTextureDescription() {
-
+		InsertTexture(0, "Dm3 Spoked");
+		InsertTexture(1, "Dm3 SAB");
+		InsertTexture(2, "Dm3 LKAB");
 	}
 
 

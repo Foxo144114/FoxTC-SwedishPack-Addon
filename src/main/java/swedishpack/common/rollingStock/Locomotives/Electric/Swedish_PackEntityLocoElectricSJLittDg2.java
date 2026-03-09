@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricSJLittDg2 extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricSJLittDg2(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelSJLittDg2Panto.class,
@@ -47,9 +48,11 @@ public class Swedish_PackEntityLocoElectricSJLittDg2 extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
+			}).setDefaultOverride(1));
 	}
-
+	public void setupTextureDescription() {
+		InsertTexture(0, "SJ Dg2");
+	}
 	@Override
 	public String transportCountry() {
 		return "SE";

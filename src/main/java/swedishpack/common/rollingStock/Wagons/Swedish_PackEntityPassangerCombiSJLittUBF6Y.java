@@ -14,12 +14,13 @@ public class Swedish_PackEntityPassangerCombiSJLittUBF6Y extends AbstractPasseng
 
 	public Swedish_PackEntityPassangerCombiSJLittUBF6Y(World world) {
 		super(world);
-
+		setupTextureDescription();
 	}
 
 	@Override
 	public void setupTextureDescription() {
-
+		InsertTexture(0, "South Plow");
+		InsertTexture(1, "North Plow");
 	}
 
 

@@ -49,7 +49,7 @@ public class Swedish_PackEntityLocoElectricSJLittRc2obb extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
+			}).setDefaultOverride(1));
 	}
 	@Override
 	public String transportCountry() {
@@ -57,6 +57,18 @@ public class Swedish_PackEntityLocoElectricSJLittRc2obb extends ElectricTrain {
 	}
 
 	public void setupTextureDescription() {
+		InsertTexture(0, "Tågab, No mirrors out");
+		InsertTexture(1,  "Tågab, Front mirrors out");
+		InsertTexture(2,  "Tågab, Back mirrors out");
+		InsertTexture(3, "STAB, No mirrors out");
+		InsertTexture(4, "STAB, Front mirrors out");
+		InsertTexture(5, "STAB, Back mirrors out");
+		InsertTexture(6, "Infranord, No mirrors out");
+		InsertTexture(7, "Infranord, Front mirrors out");
+		InsertTexture(8, "Infranord, Back mirrors out");
+		InsertTexture(9, "Tågab Yellow, No mirrors out");
+		InsertTexture(10, "Tågab Yellow, Front mirrors out");
+		InsertTexture(11, "Tågab Yellow, Back mirrors out");
 		InsertTexture(12, "EJ PaintJob", SwedishPackLockoutGroups.EJ);
 		InsertTexture(13, "EJ PaintJob", SwedishPackLockoutGroups.EJ);
 		InsertTexture(14, "EJ PaintJob", SwedishPackLockoutGroups.EJ);

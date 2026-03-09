@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricSJLittDa extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricSJLittDa(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelSJLittDaPanto.class,
@@ -47,9 +48,18 @@ public class Swedish_PackEntityLocoElectricSJLittDa extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
+			}).setDefaultOverride(1));
 	}
-
+	public void setupTextureDescription() {
+		InsertTexture(0, "SAB Wheels, South Plow");
+		InsertTexture(1, "SAB Wheels, North Plow");
+		InsertTexture(2, "Spoked Wheels, South Plow");
+		InsertTexture(3, "Spoked Wheels, North Plow");
+		InsertTexture(4, "TågFraft");
+		InsertTexture(5, "Green Museum");
+		InsertTexture(6, "Peparkaksloket, South Plow");
+		InsertTexture(7, "Peparkaksloket, North Plow");
+	}
 	@Override
 	public String transportCountry() {
 		return "SE";

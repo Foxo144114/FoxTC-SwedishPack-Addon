@@ -14,7 +14,7 @@ public class Swedish_PackEntityFreightSJLittOaVagn extends AbstractStandardFreig
 	
 	public Swedish_PackEntityFreightSJLittOaVagn(World world) {
 		super(world);
-
+		setupTextureDescription();
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class Swedish_PackEntityFreightSJLittOaVagn extends AbstractStandardFreig
 
 	@Override
 	public void setupTextureDescription() {
-
+		InsertTexture(0, "With Walls");
 	}
 
 

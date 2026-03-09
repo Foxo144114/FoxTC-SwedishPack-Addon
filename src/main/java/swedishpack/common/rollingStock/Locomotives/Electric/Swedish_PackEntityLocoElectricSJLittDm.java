@@ -28,6 +28,7 @@ public class Swedish_PackEntityLocoElectricSJLittDm extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricSJLittDm(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelSJLittDmPanto.class,
@@ -50,29 +51,29 @@ public class Swedish_PackEntityLocoElectricSJLittDm extends ElectricTrain {
 					},
 
 
-			}));
+			}).setDefaultOverride(1));
 	}
 	public void setupTextureDescription() {
-		InsertTexture(1, "A-End,Mirror Out,NorthPlow,Spoked");
-		InsertTexture(2, "A-End,Mirror Out,SouthPlow,Spoked");
-		InsertTexture(3, "A-End,Mirror Out,NorthPlow,SAB");
-		InsertTexture(4, "A-End,Mirror Out,SouthPlow,SAB");
-		InsertTexture(5, "A-End,Mirror Out,LKAB");
-		InsertTexture(6, "A-End,Mirror In,NorthPlow,Spoked");
-		InsertTexture(7, "A-End,Mirror In,SouthPlow,Spoked");
-		InsertTexture(8, "A-End,Mirror In,NorthPlow,SAB");
-		InsertTexture(9, "A-End,Mirror In,SouthPlow,SAB");
-		InsertTexture(10, "A-End,Mirror In,LKAB");
-		InsertTexture(11, "B-End,Mirror Out,NorthPlow,Spoked");
-		InsertTexture(12, "B-End,Mirror Out,SouthPlow,Spoked");
-		InsertTexture(13, "B-End,Mirror Out,NorthPlow,SAB");
-		InsertTexture(14, "B-End,Mirror Out,SouthPlow,SAB");
-		InsertTexture(15, "B-End,Mirror Out,LKAB");
-		InsertTexture(16, "B-End,Mirror In,NorthPlow,Spoked");
-		InsertTexture(17, "B-End,Mirror In,SouthPlow,Spoked");
-		InsertTexture(18, "B-End,Mirror In,NorthPlow,SAB");
-		InsertTexture(19, "B-End,Mirror In,SouthPlow,SAB");
-		InsertTexture(20, "B-End,Mirror In,LKAB");
+		InsertTexture(0, "A-End,Mirror Out,NorthPlow,Spoked");
+		InsertTexture(1, "A-End,Mirror Out,SouthPlow,Spoked");
+		InsertTexture(2, "A-End,Mirror Out,NorthPlow,SAB");
+		InsertTexture(3, "A-End,Mirror Out,SouthPlow,SAB");
+		InsertTexture(4, "A-End,Mirror Out,LKAB");
+		InsertTexture(5, "A-End,Mirror In,NorthPlow,Spoked");
+		InsertTexture(6, "A-End,Mirror In,SouthPlow,Spoked");
+		InsertTexture(7, "A-End,Mirror In,NorthPlow,SAB");
+		InsertTexture(8, "A-End,Mirror In,SouthPlow,SAB");
+		InsertTexture(9, "A-End,Mirror In,LKAB");
+		InsertTexture(10, "B-End,Mirror Out,NorthPlow,Spoked");
+		InsertTexture(11, "B-End,Mirror Out,SouthPlow,Spoked");
+		InsertTexture(12, "B-End,Mirror Out,NorthPlow,SAB");
+		InsertTexture(13, "B-End,Mirror Out,SouthPlow,SAB");
+		InsertTexture(14, "B-End,Mirror Out,LKAB");
+		InsertTexture(15, "B-End,Mirror In,NorthPlow,Spoked");
+		InsertTexture(16, "B-End,Mirror In,SouthPlow,Spoked");
+		InsertTexture(17, "B-End,Mirror In,NorthPlow,SAB");
+		InsertTexture(18, "B-End,Mirror In,SouthPlow,SAB");
+		InsertTexture(19, "B-End,Mirror In,LKAB");
 	}
 
 

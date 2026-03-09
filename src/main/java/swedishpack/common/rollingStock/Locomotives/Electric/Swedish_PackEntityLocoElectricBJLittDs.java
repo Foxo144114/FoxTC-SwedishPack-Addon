@@ -27,6 +27,7 @@ public class Swedish_PackEntityLocoElectricBJLittDs extends ElectricTrain {
 
 	public Swedish_PackEntityLocoElectricBJLittDs(World world) {
 		super(world);
+		setupTextureDescription();
 		setCargoManager(new CargoManager(new CargoSpecification[][]
 			{
 				{ new CargoSpecification(ModelBJLittDsPanto.class,
@@ -47,9 +48,14 @@ public class Swedish_PackEntityLocoElectricBJLittDs extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}));
-	}
+			}).setDefaultOverride(1)
+		);
 
+	}
+	public void setupTextureDescription() {
+		InsertTexture(0, "SJ Livery");
+		InsertTexture(1, "BJ Livery");
+	}
 	@Override
 	public void updateRiderPosition() { TraincraftUtil.updateRider(this, 3.5, 0.2, 0.3); }
 
