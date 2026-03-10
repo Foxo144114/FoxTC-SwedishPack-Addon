@@ -13,6 +13,11 @@ public enum SwedishBlockIDs implements IBlockIDs {
 
     SvensktVaxelKlotBlackSide1(null),
     SvensktVaxelKlotBlackSide2(null),
+
+    PlatformEdgeAsphalt(null),
+    PlatformEdgeTiles(null),
+    PlatformEdgeThinTiles(null),
+
     ;
 
     public Block block;

@@ -139,6 +139,8 @@ tile.swedishpack:SvensktVaxelKlotGreenSide1.name=VäxelKlot Green (Side 1)
 tile.swedishpack:SvensktVaxelKlotGreenSide2.name=VäxelKlot Green (Side 2)
 tile.swedishpack:SvensktVaxelKlotBlackSide1.name=VäxelKlot Black (Side 1)
 tile.swedishpack:SvensktVaxelKlotBlackSide2.name=VäxelKlot Black (Side 2)
+tile.swedishpack:PlatformEdgeAsphalt.name=Platform Edge (Asphalt)
+tile.swedishpack:PlatformEdgeTiles.name=Platform Edge (Tiles)
 
 train.owner.name=You are not the owner!
 train.locked.name=Locked

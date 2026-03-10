@@ -15,6 +15,10 @@ public class AddonPackBlocks
         SwedishBlockIDs.SvensktVaxelKlotBlackSide1.block = new blockSvenktVaxelKlotBlackSide1();
         SwedishBlockIDs.SvensktVaxelKlotBlackSide2.block = new blockSvenktVaxelKlotBlackSide2();
 
+        SwedishBlockIDs.PlatformEdgeAsphalt.block = new blockPlatformEdgeAsphalt();
+        SwedishBlockIDs.PlatformEdgeTiles.block = new blockPlatformEdgeTiles();
+        SwedishBlockIDs.PlatformEdgeThinTiles.block = new blockPlatformEdgeThinTiles();
+
 
         for (SwedishBlockIDs blocks : SwedishBlockIDs.values()) {
             if(blocks.block != null) {

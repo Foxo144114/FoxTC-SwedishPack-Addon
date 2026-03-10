@@ -18,5 +18,8 @@ public class CommonProxy {
         GameRegistry.registerTileEntity(tileSvensktVaxelKlotBlackSide1.class, "tileSvensktVaxelKlotBlackSide1");
         GameRegistry.registerTileEntity(tileSvensktVaxelKlotBlackSide2.class, "tileSvensktVaxelKlotBlackSide2");
 
+        GameRegistry.registerTileEntity(tilePlatformEdgeAsphalt.class, "tilePlatformEdgeAsphalt");
+        GameRegistry.registerTileEntity(tilePlatformEdgeTiles.class, "tilePlatformEdgeTiles");
+        GameRegistry.registerTileEntity(tilePlatformEdgeThinTiles.class, "tilePlatformEdgeThinTiles");
     }
 }

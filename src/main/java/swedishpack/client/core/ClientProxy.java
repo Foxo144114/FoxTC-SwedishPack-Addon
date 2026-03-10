@@ -34,6 +34,13 @@ public class ClientProxy extends CommonProxy
 
         ClientRegistry.bindTileEntitySpecialRenderer(tileSvensktVaxelKlotBlackSide2.class, new tileRendererSvensktVaxelKlotBlackSide2());
         MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(SwedishBlockIDs.SvensktVaxelKlotBlackSide2.block), new ItemRendererSvensktVaxelKlotBlackSide2());
+
+        ClientRegistry.bindTileEntitySpecialRenderer(tilePlatformEdgeAsphalt.class, new tileRendererPlatformEdgeAsphalt());
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(SwedishBlockIDs.PlatformEdgeAsphalt.block), new ItemRendererPlatformEdgeAsphalt());
+        ClientRegistry.bindTileEntitySpecialRenderer(tilePlatformEdgeTiles.class, new tileRendererPlatformEdgeTiles());
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(SwedishBlockIDs.PlatformEdgeTiles.block), new ItemRendererPlatformEdgeTiles());
+        ClientRegistry.bindTileEntitySpecialRenderer(tilePlatformEdgeThinTiles.class, new tileRendererPlatformEdgeThinTiles());
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(SwedishBlockIDs.PlatformEdgeThinTiles.block), new ItemRendererPlatformEdgeThinTiles());
     }
 
 }
