@@ -18,7 +18,7 @@ public class AddonPackBlocks
         SwedishBlockIDs.PlatformEdgeAsphalt.block = new blockPlatformEdgeAsphalt();
         SwedishBlockIDs.PlatformEdgeTiles.block = new blockPlatformEdgeTiles();
         SwedishBlockIDs.PlatformEdgeThinTiles.block = new blockPlatformEdgeThinTiles();
-
+        SwedishBlockIDs.PlatformEdgeModern.block = new blockPlatformEdgeModern();
 
         for (SwedishBlockIDs blocks : SwedishBlockIDs.values()) {
             if(blocks.block != null) {

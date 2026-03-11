@@ -21,5 +21,6 @@ public class CommonProxy {
         GameRegistry.registerTileEntity(tilePlatformEdgeAsphalt.class, "tilePlatformEdgeAsphalt");
         GameRegistry.registerTileEntity(tilePlatformEdgeTiles.class, "tilePlatformEdgeTiles");
         GameRegistry.registerTileEntity(tilePlatformEdgeThinTiles.class, "tilePlatformEdgeThinTiles");
+        GameRegistry.registerTileEntity(tilePlatformEdgeModern.class, "tilePlatformEdgeModern");
     }
 }

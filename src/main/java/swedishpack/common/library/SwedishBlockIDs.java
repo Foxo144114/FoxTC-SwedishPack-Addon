@@ -17,7 +17,7 @@ public enum SwedishBlockIDs implements IBlockIDs {
     PlatformEdgeAsphalt(null),
     PlatformEdgeTiles(null),
     PlatformEdgeThinTiles(null),
-
+    PlatformEdgeModern(null),
     ;
 
     public Block block;
