@@ -96,6 +96,20 @@ public class AddonPackRollingStockEntityHandler
                 Instance()
         );
         Traincraft.traincraftRegistry.RegisterRollingStockEntity(
+                AddonRollingStockItems.minecartTGOJLittMa.item,
+                new TrainRecord("TGOJ Litterera Ma", Swedish_PackEntityLocoElectricTGOJLittMa.class, AddonRollingStockItems.minecartTGOJLittMa.item,
+                        EnumTrainType.Electric, 0, new String[]{"Yellow","Blue","Green","Black","White","Grey","Magenta","LightBlue","Lime","LightGrey","Cyan","Pink"}, 12).setMHP(5386).setMaxSpeed(106).setFuelConsumption(10)
+                        .setHeatingTime(170).setAccelerationRate(0.7).setBrakeRate(0.9).setBogieLocoPosition(-3.7),
+                Instance()
+        );
+        Traincraft.traincraftRegistry.RegisterRollingStockEntity(
+                AddonRollingStockItems.minecartSJLittMa.item,
+                new TrainRecord("SJ Litterera Ma", Swedish_PackEntityLocoElectricSJLittMa.class, AddonRollingStockItems.minecartSJLittMa.item,
+                        EnumTrainType.Electric, 0, new String[]{"Yellow","Blue","Green","Black","White","Grey","Magenta","LightBlue","Lime","LightGrey","Cyan","Pink","Purple","Brown","Orange","Red","Skin16","Skin17","Skin18","Skin19","Skin20","Skin21","Skin22","Skin23","Skin24","Skin25","Skin26","Skin27","Skin28","Skin29"}, 12).setMHP(5386).setMaxSpeed(101).setFuelConsumption(10)
+                        .setHeatingTime(170).setAccelerationRate(0.7).setBrakeRate(0.9).setBogieLocoPosition(-3.7),
+                Instance()
+        );
+        Traincraft.traincraftRegistry.RegisterRollingStockEntity(
                 AddonRollingStockItems.minecartGBJLittBs.item,
                 new TrainRecord("GBJ Litterera Bs", Swedish_PackEntityLocoElectricGBJLittBs.class, AddonRollingStockItems.minecartGBJLittBs.item,
                         EnumTrainType.Electric, 0, new String[]{"Yellow"}, 12).setMHP(1600).setMaxSpeed(101).setFuelConsumption(10)
@@ -227,7 +241,7 @@ public class AddonPackRollingStockEntityHandler
                 new TrainRecord("SJ Litterera Y6", Swedish_PackEntityLocoDieselSJLittY6.class, AddonRollingStockItems.minecartSJLittY6.item,
                         EnumTrainType.Diesel, 0, new String[]{"Yellow","Blue"}, 8,
                         0, 0.6, 116, 800,
-                        45, 180, 0.5, -4.4f, 8000),
+                        45, 130, 0.5, -4.4f, 8000),
                 Instance()
         );
         Traincraft.traincraftRegistry.RegisterRollingStockEntity(
@@ -235,7 +249,7 @@ public class AddonPackRollingStockEntityHandler
                 new TrainRecord("SJ Litterera T31", Swedish_PackEntityLocoDieselSJLittT31.class, AddonRollingStockItems.minecartSJLittT31.item,
                         EnumTrainType.Diesel, 0, new String[]{"Yellow","Blue","Green","Black"}, 8,
                         0, 0.6, 81, 790,
-                        45, 180, 0.5, -2.275f, 3000),
+                        25, 130, 0.5, -2.275f, 5000),
                 Instance()
         );
         Traincraft.traincraftRegistry.RegisterRollingStockEntity(
@@ -243,7 +257,7 @@ public class AddonPackRollingStockEntityHandler
                 new TrainRecord("SJ Litterera T21", Swedish_PackEntityLocoDieselSJLittT21.class, AddonRollingStockItems.minecartSJLittT21.item,
                         EnumTrainType.Diesel, 0, new String[]{"Yellow","Blue","Green","Black"}, 8,
                         0, 0.6, 81, 790,
-                        45, 180, 0.5, -3.1f, 5000),
+                        35, 160, 0.5, -3.1f, 6000),
                 Instance()
         );
         Traincraft.traincraftRegistry.RegisterRollingStockEntity(
@@ -251,7 +265,7 @@ public class AddonPackRollingStockEntityHandler
                 new TrainRecord("SJ Litterera T23", Swedish_PackEntityLocoDieselSJLittT23.class, AddonRollingStockItems.minecartSJLittT23.item,
                         EnumTrainType.Diesel, 0, new String[]{"Yellow","Blue","Green","Black","White","Grey","Magenta","LightBlue","Lime","LightGrey","Cyan","Pink","Purple","Brown","Orange","Red","Skin16","Skin17","Skin18","Skin19"}, 8,
                         0, 0.6, 81, 790,
-                        45, 180, 0.5, -3.5f, 6000),
+                        40, 180, 0.5, -3.5f, 8000),
                 Instance()
         );
         Traincraft.traincraftRegistry.RegisterRollingStockEntity(
@@ -371,7 +385,7 @@ public class AddonPackRollingStockEntityHandler
                 AddonRollingStockItems.minecartSJLittG.item,
                 new TrainRecord("Litterera G", Swedish_PackEntityFreightSJLittG.class, AddonRollingStockItems.minecartSJLittG.item,
                         EnumTrainType.Boxcar, 0,
-                        new String[]{"Blue","Red","Yellow"}, 12).setCargoCapacity(36).setAdditionalTooltip(new String[]{"Cargo: any"}),
+                        new String[]{"Yellow","Red","Blue"}, 12).setCargoCapacity(36).setAdditionalTooltip(new String[]{"Cargo: any"}),
 
                 Instance()
         );

@@ -17,7 +17,7 @@ import train.common.library.sounds.SoundRecord;
 
 public class Swedish_PackEntityLocoElectricSJLittD extends ElectricTrain {
 
-	public static final SoundRecord Sound = new SoundRecord(Swedish_PackEntityLocoElectricSJLittD.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 0.3F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle" , 0.2F, 50, false, Info.resourceLocation +" ", 0 );
+	public static final SoundRecord Sound = new SoundRecord(Swedish_PackEntityLocoElectricSJLittD.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 0.3F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle" , 0.2F, 50, false, Swedish_PackAddonInfo.resourceLocation + ":signalhornshort", 30 );
 
 	@Override
 	public SoundRecord getSoundRecord() {

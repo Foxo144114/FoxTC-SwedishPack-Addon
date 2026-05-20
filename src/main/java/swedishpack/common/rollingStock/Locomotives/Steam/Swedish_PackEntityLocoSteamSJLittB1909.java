@@ -19,9 +19,9 @@ public class Swedish_PackEntityLocoSteamSJLittB1909 extends SteamTrain {
 
 	public static final SoundRecord Sound = new SoundRecord(Swedish_PackEntityLocoSteamSJLittB1909.class,
 			Swedish_PackAddonInfo.resourceLocation + ":bwhistlelong", 0.3F,
-			Swedish_PackAddonInfo.resourceLocation +":blokrun", 0.2F, 50,
-			Swedish_PackAddonInfo.resourceLocation +":blokidle" , 0.2F, 97, false,
-			Info.resourceLocation +" ", 0 );
+			"steam_run", 0.2F, 20,
+			Swedish_PackAddonInfo.resourceLocation +":blokidle" , 0.2F, 97, true,
+			Swedish_PackAddonInfo.resourceLocation + ":bwhistleshort", 30 );
 
 
 	public Swedish_PackEntityLocoSteamSJLittB1909(World world) {

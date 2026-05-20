@@ -22,19 +22,19 @@ public class AddonTableRecipeRegister extends AbstractRecipeHandler
 {
     public AddonTableRecipeRegister()
     {
-        GameRegistry.addRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreySide1.block,1), "Y  ","RG ","BIW", Character.valueOf('Y'), YELLOW_DYE, Character.valueOf('R'), RED_DYE, Character.valueOf('G'), LIGHT_GRAY_DYE, Character.valueOf('B'), Blocks.iron_block, Character.valueOf('I'), Items.iron_ingot, Character.valueOf('W'), Blocks.planks);
-        GameRegistry.addShapedRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreySide2.block, 1), "  ", " I", 'I', new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreySide1.block, 1));
+        GameRegistry.addRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreySide2.block,1), "Y  ","RG ","BIW", Character.valueOf('Y'), YELLOW_DYE, Character.valueOf('R'), RED_DYE, Character.valueOf('G'), LIGHT_GRAY_DYE, Character.valueOf('B'), Blocks.iron_block, Character.valueOf('I'), Items.iron_ingot, Character.valueOf('W'), Blocks.planks);
         GameRegistry.addShapedRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreySide1.block, 1), "  ", " I", 'I', new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreySide2.block, 1));
+        GameRegistry.addShapedRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreySide2.block, 1), "  ", " I", 'I', new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreySide1.block, 1));
 
 
-        GameRegistry.addRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreenSide1.block,1), "Y  ","RG ","BIW", Character.valueOf('Y'), YELLOW_DYE, Character.valueOf('R'), RED_DYE, Character.valueOf('G'), GREEN_DYE, Character.valueOf('B'), Blocks.iron_block, Character.valueOf('I'), Items.iron_ingot, Character.valueOf('W'), Blocks.planks);
-        GameRegistry.addShapedRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreenSide2.block, 1), "  ", " I", 'I', new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreenSide1.block, 1));
+        GameRegistry.addRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreenSide2.block,1), "Y  ","RG ","BIW", Character.valueOf('Y'), YELLOW_DYE, Character.valueOf('R'), RED_DYE, Character.valueOf('G'), GREEN_DYE, Character.valueOf('B'), Blocks.iron_block, Character.valueOf('I'), Items.iron_ingot, Character.valueOf('W'), Blocks.planks);
         GameRegistry.addShapedRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreenSide1.block, 1), "  ", " I", 'I', new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreenSide2.block, 1));
+        GameRegistry.addShapedRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreenSide2.block, 1), "  ", " I", 'I', new ItemStack(SwedishBlockIDs.SvensktVaxelKlotGreenSide1.block, 1));
 
 
-        GameRegistry.addRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotBlackSide1.block,1), "Y  ","RG ","BIW", Character.valueOf('Y'), YELLOW_DYE, Character.valueOf('R'), RED_DYE, Character.valueOf('G'), BLACK_DYE , Character.valueOf('B'), Blocks.iron_block, Character.valueOf('I'), Items.iron_ingot, Character.valueOf('W'), Blocks.planks);
-        GameRegistry.addShapedRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotBlackSide2.block, 1), "  ", " I", 'I', new ItemStack(SwedishBlockIDs.SvensktVaxelKlotBlackSide1.block, 1));
+        GameRegistry.addRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotBlackSide2.block,1), "Y  ","RG ","BIW", Character.valueOf('Y'), YELLOW_DYE, Character.valueOf('R'), RED_DYE, Character.valueOf('G'), BLACK_DYE , Character.valueOf('B'), Blocks.iron_block, Character.valueOf('I'), Items.iron_ingot, Character.valueOf('W'), Blocks.planks);
         GameRegistry.addShapedRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotBlackSide1.block, 1), "  ", " I", 'I', new ItemStack(SwedishBlockIDs.SvensktVaxelKlotBlackSide2.block, 1));
+        GameRegistry.addShapedRecipe(new ItemStack(SwedishBlockIDs.SvensktVaxelKlotBlackSide2.block, 1), "  ", " I", 'I', new ItemStack(SwedishBlockIDs.SvensktVaxelKlotBlackSide1.block, 1));
 
         GameRegistry.addRecipe(new ItemStack(SwedishBlockIDs.PlatformEdgeAsphalt.block,4), "   "," W ","AFS", Character.valueOf('W'), WHITE_DYE, Character.valueOf('A'), new ItemStack(BlockIDs.asphaltSlab.block), Character.valueOf('F'), new ItemStack(BlockIDs.asphaltSlab.block) , Character.valueOf('S'), new ItemStack(Blocks.stone_slab));
         GameRegistry.addShapedRecipe(new ItemStack(SwedishBlockIDs.PlatformEdgeTiles.block, 1), "  ", " I", 'I', new ItemStack(SwedishBlockIDs.PlatformEdgeAsphalt.block, 1));
@@ -111,6 +111,10 @@ public class AddonTableRecipeRegister extends AbstractRecipeHandler
         betterAddRecipe(3,null, null, null, null, null, new ItemStack(Blocks.chest, 1), null, new ItemStack(ItemIDs.bogie.item, 2), new ItemStack(ItemIDs.steelframe.item, 1), new ItemStack(ItemIDs.steel.item,2), new ItemStack(AddonRollingStockItems.minecartSJLittLgns_081.item), 1);
         betterAddRecipe(1,null, null, null, null, new ItemStack(Blocks.iron_ore, 1), null, null, new ItemStack(ItemIDs.ironBogie.item, 3), new ItemStack(ItemIDs.ironFrame.item, 1), new ItemStack(Items.iron_ingot,2), new ItemStack(AddonRollingStockItems.minecartSJLittM1.item), 1);
         betterAddRecipe(1,null, null, null, null, new ItemStack(Blocks.gravel, 1), null, null, new ItemStack(ItemIDs.ironBogie.item, 3), new ItemStack(ItemIDs.ironFrame.item, 1), new ItemStack(Items.iron_ingot,2), new ItemStack(AddonRollingStockItems.minecartSJLittM1.item), 1);
+        betterAddRecipe(2,new ItemStack(ItemIDs.steel.item, 4), new ItemStack(ItemIDs.controls.item,2), new ItemStack(ItemIDs.steelcab.item, 2), new ItemStack(ItemIDs.pantograph.item, 2), null , new ItemStack(ItemIDs.transformer.item, 2), new ItemStack(ItemIDs.electmotor.item, 4), new ItemStack(ItemIDs.sixWheelLightweightTruck.item, 2), new ItemStack(ItemIDs.steelframe.item, 3), new ItemStack(ItemIDs.steel.item, 4), new ItemStack(AddonRollingStockItems.minecartTGOJLittMa.item), 1);
+        betterAddRecipe(2,new ItemStack(ItemIDs.steel.item, 4), new ItemStack(ItemIDs.controls.item,2), new ItemStack(ItemIDs.steelcab.item, 2), new ItemStack(ItemIDs.pantograph.item, 2), null , new ItemStack(ItemIDs.transformer.item, 2), new ItemStack(ItemIDs.electmotor.item, 4), new ItemStack(ItemIDs.sixWheelLightweightTruck.item, 2), new ItemStack(ItemIDs.steelframe.item, 3), new ItemStack(ItemIDs.steel.item, 4), new ItemStack(AddonRollingStockItems.minecartSJLittMa.item), 1);
+        GameRegistry.addShapedRecipe(new ItemStack(AddonRollingStockItems.minecartSJLittMa.item, 1), "  ", " I", 'I', new ItemStack(AddonRollingStockItems.minecartTGOJLittMa.item, 1));
+        GameRegistry.addShapedRecipe(new ItemStack(AddonRollingStockItems.minecartTGOJLittMa.item, 1), "  ", " I", 'I', new ItemStack(AddonRollingStockItems.minecartSJLittMa.item, 1));
 
 
 

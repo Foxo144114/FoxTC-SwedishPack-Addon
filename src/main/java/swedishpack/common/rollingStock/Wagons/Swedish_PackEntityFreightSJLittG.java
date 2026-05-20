@@ -36,7 +36,7 @@ public class Swedish_PackEntityFreightSJLittG extends AbstractStandardFreightCar
 								Swedish_PackAddonInfo.modID, "trains/Wagons/G_Wagons/G_/Doors_/SJLittG_rightopen", "Right Door Open",
 								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 						},
-				}));
+				}).setDefaultOverride(1));
 	}
 
 	@Override
@@ -46,9 +46,10 @@ public class Swedish_PackEntityFreightSJLittG extends AbstractStandardFreightCar
 
 	@Override
 	public void setupTextureDescription() {
-		InsertTexture(0, "Red walls, Red Roof");
-		InsertTexture(1, "Red walls, Light Grey Roof");
-		InsertTexture(2, "Red walls, Grey Roof");
+		InsertTexture(0, "Red walls, Grey Roof");
+		InsertTexture(1, "Red walls, Red Roof");
+		InsertTexture(2, "Red walls, Light Grey Roof");
+
 	}
 
 
@@ -66,14 +67,14 @@ public class Swedish_PackEntityFreightSJLittG extends AbstractStandardFreightCar
 			public ResourceLocation getTextureFile(String colorAsString) {
 				String texturePath = "";
 				switch (colorAsString.toLowerCase()) {
+					case "yellow":
+						texturePath = "textures/trains/Wagons/G_Wagons/G_/SJLittG_RWMGR";
+						break;
 					case "blue":
 						texturePath = "textures/trains/Wagons/G_Wagons/G_/SJLittG_RWRR";
 						break;
 					case "red":
 						texturePath = "textures/trains/Wagons/G_Wagons/G_/SJLittG_RWLGR";
-						break;
-					case "yellow":
-						texturePath = "textures/trains/Wagons/G_Wagons/G_/SJLittG_RWMGR";
 						break;
 				}
 				texturePath += ".png";

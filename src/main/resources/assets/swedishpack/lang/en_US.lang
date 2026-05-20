@@ -102,8 +102,10 @@ item.swedishpack:minecartSJLittFTender.name=F Tender (SJ)
 item.swedishpack:minecartTGOJLittBt.name=Bt (TGOJ)
 entity.swedishpack.TGOJ Litterera Bt.name=Bt (TGOJ)
 item.swedishpack:minecartSJLittLgns_081.name=Lgns-081 (GC)
-
-
+item.swedishpack:minecartTGOJLittMa.name=Ma (TGOJ)
+entity.swedishpack.TGOJ Litterera Ma.name=Ma (TGOJ)
+item.swedishpack:minecartSJLittMa.name=Ma (SJ)
+entity.swedishpack.SJ Litterera Ma.name=Ma (SJ)
 
 
 

@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class Swedish_PackEntityLocoDieselSJLittY6 extends DieselTrain {
 
-	public static final SoundRecord Sound = new SoundRecord(Swedish_PackEntityLocoDieselSJLittY6.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 0.3F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle" , 0.2F, 50, false, Info.resourceLocation +" ", 0 );
+	public static final SoundRecord Sound = new SoundRecord(Swedish_PackEntityLocoDieselSJLittY6.class, Swedish_PackAddonInfo.resourceLocation + ":signalhornlong", 0.3F, Info.resourceLocation +":vl10_idle", 0.2F, 50, Info.resourceLocation +":vl10_idle" , 0.2F, 50, false, Swedish_PackAddonInfo.resourceLocation + ":signalhornshort", 30  );
 
 	@Override
 	public SoundRecord getSoundRecord() {

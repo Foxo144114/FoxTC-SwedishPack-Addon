@@ -72,6 +72,9 @@ public enum AddonRollingStockItems
     minecartSJLittFTender( "Ftender-Icon", 5),
    minecartTGOJLittBt( "Bt-Icon", 5),
    minecartSJLittLgns_081( "Lgns_081-Icon", 9),
+    minecartTGOJLittMa( "TGOJMa-Icon", 5),
+    minecartSJLittMa( "SJMa-Icon", 5),
+
     ;
 
 
