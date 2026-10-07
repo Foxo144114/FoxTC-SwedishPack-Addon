@@ -41,7 +41,7 @@ public class Swedish_PackEntityLocoElectricSJLittOe extends ElectricTrain {
 					},
 
 
-			}).setDefaultOverride(1));
+			}).disableUnselectedSlot());
 	}
 
 	public void setupTextureDescription() {

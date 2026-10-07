@@ -42,7 +42,7 @@ public enum AddonRollingStockItems
     minecartSJLittOa( "Oa-Icon", 5),
     minecartSJLittOs( "Os-Icon", 4),
     minecartSJLittOs_w( "Os_w-Icon", 6),
-    minecartSJLittLgs( "Lgs-Icon", 9),
+    minecartSJLittLgs_722( "Lgs722-Icon", 9),
     minecartSJLittG( "G-Icon", 5),
     minecartSJLittB1919( "B1919-Icon", 5),
     minecartSJLittATender( "Atender-Icon", 5),

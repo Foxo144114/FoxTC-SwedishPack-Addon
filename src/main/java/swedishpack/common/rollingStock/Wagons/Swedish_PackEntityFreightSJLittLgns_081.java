@@ -167,7 +167,7 @@ public class Swedish_PackEntityFreightSJLittLgns_081 extends AbstractStandardFre
 
 	@Override
 	public String getInventoryName() {
-		return "SJ Litt Lgns-081";
+		return "Lgns⁰⁸¹ (GC)";
 	}
 
 	

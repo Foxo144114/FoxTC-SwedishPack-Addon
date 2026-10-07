@@ -49,7 +49,7 @@ public class Swedish_PackEntityLocoElectricSJLittRc3 extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}).setDefaultOverride(1));
+			}).disableUnselectedSlot());
 	}
 	public void setupTextureDescription() {
 		InsertTexture(0, "SSRT, No mirrors out");
@@ -164,19 +164,19 @@ public class Swedish_PackEntityLocoElectricSJLittRc3 extends ElectricTrain {
 						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_sjb_Mbo";
 						break;
 					case "skin18":
-						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_sjo_Mbo";
+						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_sjo_Mno";
 						break;
 					case "skin19":
-						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_sjo_Mbo";
+						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_sjo_Mfo";
 						break;
 					case "skin20":
 						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_sjo_Mbo";
 						break;
 					case "skin21":
-						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_FTR_Mbo";
+						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_FTR_Mno";
 						break;
 					case "skin22":
-						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_FTR_Mbo";
+						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_FTR_Mfo";
 						break;
 					case "skin23":
 						texturePath = "textures/trains/Locomotives/Electric/Rc3_/Rc3_FTR_Mbo";

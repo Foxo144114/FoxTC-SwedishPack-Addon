@@ -51,7 +51,7 @@ public class Swedish_PackEntityLocoElectricSJLittDm extends ElectricTrain {
 					},
 
 
-			}).setDefaultOverride(1));
+			}).disableUnselectedSlot());
 	}
 	public void setupTextureDescription() {
 		InsertTexture(0, "A-End,Mirror Out,NorthPlow,Spoked");

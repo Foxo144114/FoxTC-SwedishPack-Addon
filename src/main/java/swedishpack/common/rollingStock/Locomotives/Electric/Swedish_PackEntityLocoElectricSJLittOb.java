@@ -41,7 +41,7 @@ public class Swedish_PackEntityLocoElectricSJLittOb extends ElectricTrain {
 					},
 
 
-			}).setDefaultOverride(1));
+			}).disableUnselectedSlot());
 	}
 	public void setupTextureDescription() {
 		InsertTexture(0, "Ob, No Plow");

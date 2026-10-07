@@ -41,7 +41,7 @@ public class Swedish_PackEntityLocoElectricSJLittX16 extends ElectricTrain {
 					},
 
 
-			}).setDefaultOverride(1));
+			}).disableUnselectedSlot());
 	}
 	public void setupTextureDescription() {
 		InsertTexture(0, "South Plow, Normal Window");

@@ -48,12 +48,39 @@ public class Swedish_PackEntityLocoElectricSJLittMa extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}).setDefaultOverride(1));
+			}).disableUnselectedSlot());
 	}
 	public void setupTextureDescription() {
-		InsertTexture(0, "SJ Red and Black, No mirrors out");
-		InsertTexture(1, "SJ Red and Black, Front mirrors out");
-		InsertTexture(2, "SJ Red and Black, Back mirrors out");
+		InsertTexture(0, "SJ Red, No mirrors out");
+		InsertTexture(1, "SJ Red, Front mirrors out");
+		InsertTexture(2, "SJ Red, Back mirrors out");
+		InsertTexture(3, "SJ Red And Black SlickePinne, No mirrors out");
+		InsertTexture(4, "SJ Red And Black SlickePinne, Front mirrors out");
+		InsertTexture(5, "SJ Red And Black SlickePinne, Back mirrors out");
+		InsertTexture(6, "SJ Red And Black Old, No mirrors out");
+		InsertTexture(7, "SJ Red And Black Old, Front mirrors out");
+		InsertTexture(8, "SJ Red And Black Old, Back mirrors out");
+		InsertTexture(9, "SJ Red And Black Modern, No mirrors out");
+		InsertTexture(10, "SJ Red And Black Modern, Front mirrors out");
+		InsertTexture(11, "SJ Red And Black Modern, Back mirrors out");
+		InsertTexture(12, "SJ Red And Black Modern OED, No mirrors out");
+		InsertTexture(13, "SJ Red And Black Modern OED, Front mirrors out");
+		InsertTexture(14, "SJ Red And Black Modern OED, Back mirrors out");
+		InsertTexture(15, "SJ Red Stambanans vännner, No mirrors out");
+		InsertTexture(16, "SJ Red Stambanans vännner, Front mirrors out");
+		InsertTexture(17, "SJ Red Stambanans vännner, Back mirrors out");
+		InsertTexture(18, "NetRail, No mirrors out");
+		InsertTexture(19, "NetRail, Front mirrors out");
+		InsertTexture(20, "NetRail, Back mirrors out");
+		InsertTexture(21, "TGOJ Trafik Modern BG, No mirrors out");
+		InsertTexture(22, "TGOJ Trafik Modern BG, Front mirrors out");
+		InsertTexture(23, "TGOJ Trafik Modern BG, Back mirrors out");
+		InsertTexture(24, "TGOJ Trafik Modern GB, No mirrors out");
+		InsertTexture(25, "TGOJ Trafik Modern GB, Front mirrors out");
+		InsertTexture(26, "TGOJ Trafik Modern GB, Back mirrors out");
+		InsertTexture(27, "SJ Red And Black Modern OED Modern Plow, No mirrors out");
+		InsertTexture(28, "SJ Red And Black Modern OED Modern Plow, Front mirrors out");
+		InsertTexture(29, "SJ Red And Black Modern OED Modern Plow, Back mirrors out");
 	}
 	@Override
 	public String transportCountry() {
@@ -62,7 +89,7 @@ public class Swedish_PackEntityLocoElectricSJLittMa extends ElectricTrain {
 
 
 	@Override
-	public void updateRiderPosition() { TraincraftUtil.updateRider(this, 4.8, 0.2, 0.3); }
+	public void updateRiderPosition() { TraincraftUtil.updateRider(this, 5.25, 0.2, 0.3); }
 
 
 	@Override
@@ -72,7 +99,7 @@ public class Swedish_PackEntityLocoElectricSJLittMa extends ElectricTrain {
 
 	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
-		return 1.95F;
+		return 2.2F;
 	}
 	@Override
 	public void onRenderInsertRecord()
@@ -80,7 +107,7 @@ public class Swedish_PackEntityLocoElectricSJLittMa extends ElectricTrain {
 		Traincraft.traincraftRegistry.RegisterRollingStockModel(new TrainRenderRecord(Swedish_PackAddonInfo.modID,
 				Swedish_PackEntityLocoElectricSJLittMa.class, new ModelTGOJLittMa(),
 				"Ma_",
-				new float[] {-4.8F, -0.5F, 0.0F},
+				new float[] {-5.1F, -0.5F, 0.0F},
 				new float[]{0F, 180F, 180F},
 				null){
 			@Override

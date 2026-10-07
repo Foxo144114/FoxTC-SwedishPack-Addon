@@ -48,7 +48,7 @@ public class Swedish_PackEntityLocoElectricSJLittDa extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}).setDefaultOverride(1));
+			}).disableUnselectedSlot());
 	}
 	public void setupTextureDescription() {
 		InsertTexture(0, "SAB Wheels, South Plow");

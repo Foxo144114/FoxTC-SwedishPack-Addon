@@ -4,12 +4,15 @@ import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import swedishpack.client.render.models.ModelSJLittE2;
+import swedishpack.client.render.models.ModelSJLittE2Smoke;
 import swedishpack.common.library.Swedish_PackAddonInfo;
 import train.client.render.register.TrainRenderRecord;
 import train.common.Traincraft;
 import train.common.api.LiquidManager;
 import train.common.api.SteamTrain;
 import train.common.core.util.TraincraftUtil;
+import train.common.entity.CargoManager;
+import train.common.entity.CargoSpecification;
 import train.common.library.Info;
 import train.common.library.sounds.SoundRecord;
 
@@ -27,6 +30,19 @@ public class Swedish_PackEntityLocoSteamSJLittE2 extends SteamTrain {
 	public Swedish_PackEntityLocoSteamSJLittE2(World world) {
 		super(world, Traincraft.traincraftRegistry.getTrainRecord(Swedish_PackEntityLocoSteamSJLittE2.class).getTankCapacity(), LiquidManager.WATER_FILTER);
 		setupTextureDescription();
+		setCargoManager(new CargoManager(new CargoSpecification[][]
+				{
+						{ new CargoSpecification(ModelSJLittE2Smoke.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Steam/Smoke/E2_/SJLittE2_S", "Smokebox Closed, In Service",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+						{ new CargoSpecification(ModelSJLittE2Smoke.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Steam/Smoke/E2_/SJLittE2_M", "Smokebox Open, Maintinence",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+
+
+				}).disableUnselectedSlot());
 	}
 
 	@Override
@@ -37,14 +53,10 @@ public class Swedish_PackEntityLocoSteamSJLittE2 extends SteamTrain {
 
 
 	public void setupTextureDescription() {
-		InsertTexture(0, "With SmokeboxLantern, With Generator, Service");
-		InsertTexture(1, "With SmokeboxLantern, With Generator, Maintinence");
-		InsertTexture(2, "No SmokeboxLantern, No Generator, Service");
-		InsertTexture(3, "No SmokeboxLantern, No Generator, Maintinence");
-		InsertTexture(4, "No SmokeboxLantern, With Generator, Service");
-		InsertTexture(5, "No SmokeboxLantern, With Generator, Maintinence");
-		InsertTexture(6, "With SmokeboxLantern, No Generator, Service");
-		InsertTexture(7, "With SmokeboxLantern, No Generator, Maintinence");
+		InsertTexture(0, "With SmokeboxLantern, With Generator");
+		InsertTexture(1, "No SmokeboxLantern, No Generator");
+		InsertTexture(2, "No SmokeboxLantern, With Generator");
+		InsertTexture(3, "With SmokeboxLantern, No Generator");
 	}
 
 
@@ -88,28 +100,16 @@ public class Swedish_PackEntityLocoSteamSJLittE2 extends SteamTrain {
 				String texturePath = "";
 				switch (colorAsString.toLowerCase()) {
 					case "yellow":
-						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_MLMG_S";
+						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_MLMG";
 						break;
 					case "blue":
-						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_MLMG_M";
+						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_ULUG";
 						break;
 					case "green":
-						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_ULUG_S";
+						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_ULMG";
 						break;
 					case "black":
-						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_ULUG_M";
-						break;
-					case "white":
-						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_ULMG_S";
-						break;
-					case "grey":
-						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_ULMG_M";
-						break;
-					case "magenta":
-						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_MLUG_S";
-						break;
-					case "lightblue":
-						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_MLUG_M";
+						texturePath = "textures/trains/Locomotives/Steam/E2_/SJLittE2_MLUG";
 						break;
 				}
 				texturePath += ".png";

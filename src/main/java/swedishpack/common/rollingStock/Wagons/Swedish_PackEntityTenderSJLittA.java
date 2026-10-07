@@ -33,8 +33,8 @@ public class Swedish_PackEntityTenderSJLittA extends Tender {
 		Traincraft.traincraftRegistry.RegisterRollingStockModel(new TrainRenderRecord(Swedish_PackAddonInfo.modID,
 				Swedish_PackEntityTenderSJLittA.class, new ModelSJLittAtender(),
 				"SJLittATender_",
-				new float[] {1.0F, -0.5F, 0.0F},
-				new float[]{0F, 0F, 180F},
+				new float[] {-1.0F, -0.5F, 0.0F},
+				new float[]{0F, 180F, 180F},
 				null){
 			@Override
 			public ResourceLocation getTextureFile(String colorAsString) {

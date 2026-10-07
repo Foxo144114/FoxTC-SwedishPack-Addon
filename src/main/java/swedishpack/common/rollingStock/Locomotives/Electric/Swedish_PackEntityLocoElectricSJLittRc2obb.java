@@ -49,7 +49,7 @@ public class Swedish_PackEntityLocoElectricSJLittRc2obb extends ElectricTrain {
 							new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
 					}
 
-			}).setDefaultOverride(1));
+			}).disableUnselectedSlot());
 	}
 	@Override
 	public String transportCountry() {

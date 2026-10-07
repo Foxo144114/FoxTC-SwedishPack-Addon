@@ -3,13 +3,17 @@ package swedishpack.common.rollingStock.Locomotives.Diesel;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
+import swedishpack.client.render.models.ModelSJLittT23Bonnet;
 import swedishpack.client.render.models.ModelSJLittT31;
+import swedishpack.client.render.models.ModelSJLittT31Bonnet;
 import swedishpack.common.library.Swedish_PackAddonInfo;
 import train.client.render.register.TrainRenderRecord;
 import train.common.Traincraft;
 import train.common.api.DieselTrain;
 import train.common.api.LiquidManager;
 import train.common.core.util.TraincraftUtil;
+import train.common.entity.CargoManager;
+import train.common.entity.CargoSpecification;
 import train.common.library.Info;
 import train.common.library.sounds.SoundRecord;
 
@@ -28,6 +32,20 @@ public class Swedish_PackEntityLocoDieselSJLittT31 extends DieselTrain {
 	public Swedish_PackEntityLocoDieselSJLittT31(World world) {
 		super(world, Traincraft.traincraftRegistry.getTrainRecord(Swedish_PackEntityLocoDieselSJLittT31.class).getTankCapacity(), LiquidManager.dieselFilter());
 		setupTextureDescription();
+		setCargoManager(new CargoManager(new CargoSpecification[][]
+				{
+						{ new CargoSpecification(ModelSJLittT31Bonnet.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Diesel/Bonnets/T31_Bonnet/SJLittT31_S", "Bonnet Closed",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+						{ new CargoSpecification(ModelSJLittT31Bonnet.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Diesel/Bonnets/T31_Bonnet/SJLittT31_O", "Bonnet Open",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+
+
+
+				}).setDefaultOverride(1));
 	}
 
 	@Override
@@ -45,10 +63,8 @@ public class Swedish_PackEntityLocoDieselSJLittT31 extends DieselTrain {
 	}
 
 	public void setupTextureDescription() {
-		InsertTexture(0, "Service, With Plow");
-		InsertTexture(1, "Service, Without Plow");
-		InsertTexture(2, "Maintinence, With Plow");
-		InsertTexture(3, "Maintinence, Without Plow");
+		InsertTexture(0, "With Plow");
+		InsertTexture(1, "Without Plow");
 	}
 
 	@Override
@@ -71,18 +87,11 @@ public class Swedish_PackEntityLocoDieselSJLittT31 extends DieselTrain {
 				String texturePath = "";
 				switch (colorAsString.toLowerCase()) {
 					case "yellow":
-						texturePath = "textures/trains/Locomotives/Diesel/T31_/SJLittT31_S_WP";
+						texturePath = "textures/trains/Locomotives/Diesel/T31_/SJLittT31_WP";
 						break;
 					case "blue":
-						texturePath = "textures/trains/Locomotives/Diesel/T31_/SJLittT31_S_NP";
+						texturePath = "textures/trains/Locomotives/Diesel/T31_/SJLittT31_NP";
 						break;
-					case "green":
-						texturePath = "textures/trains/Locomotives/Diesel/T31_/SJLittT31_O_WP";
-						break;
-					case "black":
-						texturePath = "textures/trains/Locomotives/Diesel/T31_/SJLittT31_O_NP";
-						break;
-
 				}
 				texturePath += ".png";
 

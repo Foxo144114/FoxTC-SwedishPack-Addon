@@ -3,13 +3,17 @@ package swedishpack.common.rollingStock.Locomotives.Diesel;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
+import swedishpack.client.render.models.ModelSJLittT21Bonnet;
 import swedishpack.client.render.models.ModelSJLittT23;
+import swedishpack.client.render.models.ModelSJLittT23Bonnet;
 import swedishpack.common.library.Swedish_PackAddonInfo;
 import train.client.render.register.TrainRenderRecord;
 import train.common.Traincraft;
 import train.common.api.DieselTrain;
 import train.common.api.LiquidManager;
 import train.common.core.util.TraincraftUtil;
+import train.common.entity.CargoManager;
+import train.common.entity.CargoSpecification;
 import train.common.library.Info;
 import train.common.library.sounds.SoundRecord;
 
@@ -28,6 +32,43 @@ public class Swedish_PackEntityLocoDieselSJLittT23 extends DieselTrain {
 	public Swedish_PackEntityLocoDieselSJLittT23(World world) {
 		super(world, Traincraft.traincraftRegistry.getTrainRecord(Swedish_PackEntityLocoDieselSJLittT23.class).getTankCapacity(), LiquidManager.dieselFilter());
 		setupTextureDescription();
+		setCargoManager(new CargoManager(new CargoSpecification[][]
+				{
+						{ new CargoSpecification(ModelSJLittT23Bonnet.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Diesel/Bonnets/T23_Bonnet/SJLittT23_S_R", "Bonnet Closed For Red Liveries",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+						{ new CargoSpecification(ModelSJLittT23Bonnet.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Diesel/Bonnets/T23_Bonnet/SJLittT23_O_R", "Bonnet Open For Red Liveries",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+						{ new CargoSpecification(ModelSJLittT23Bonnet.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Diesel/Bonnets/T23_Bonnet/SJLittT23_S_GBBJ", "Bonnet Closed For GBBJ Liveries",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+						{ new CargoSpecification(ModelSJLittT23Bonnet.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Diesel/Bonnets/T23_Bonnet/SJLittT23_O_GBBJ", "Bonnet Open For GBBJ Liveries",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+						{ new CargoSpecification(ModelSJLittT23Bonnet.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Diesel/Bonnets/T23_Bonnet/SJLittT23_S_ESG", "Bonnet Closed For Green Liveries",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+						{ new CargoSpecification(ModelSJLittT23Bonnet.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Diesel/Bonnets/T23_Bonnet/SJLittT23_O_ESG", "Bonnet Open For Green Liveries",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+						{ new CargoSpecification(ModelSJLittT23Bonnet.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Diesel/Bonnets/T23_Bonnet/SJLittT23_S_Gf", "Bonnet Closed For Gulfiber Liveries",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+						{ new CargoSpecification(ModelSJLittT23Bonnet.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Diesel/Bonnets/T23_Bonnet/SJLittT23_O_Gf", "Bonnet Open For Gulfiber Liveries",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+
+
+				}).setDefaultOverride(1));
 	}
 
 	@Override
@@ -45,26 +86,16 @@ public class Swedish_PackEntityLocoDieselSJLittT23 extends DieselTrain {
 	}
 
 	public void setupTextureDescription() {
-		InsertTexture(0, "SJ, Service, No Slickepinnar, With Plow");
-		InsertTexture(1, "SJ, Service, No Slickepinnar, Without Plow");
-		InsertTexture(2, "SJ, Maintinence, No Slickepinnar, With Plow");
-		InsertTexture(3, "SJ, Maintinence, No Slickepinnar, Without Plow");
-		InsertTexture(4, "SJ, Service, Slickepinnar, With Plow");
-		InsertTexture(5, "SJ, Service, Slickepinnar, Without Plow");
-		InsertTexture(6, "SJ, Maintinence, Slickepinnar, With Plow");
-		InsertTexture(7, "SJ, Maintinence, Slickepinnar, Without Plow");
-		InsertTexture(8, "GBBJ, Service, With Plow");
-		InsertTexture(9, "GBBJ, Service, Without Plow");
-		InsertTexture(10, "GBBJ, Maintinence, With Plow");
-		InsertTexture(11, "GBBJ, Maintinence, Without Plow");
-		InsertTexture(12, "Green, Service, With Plow");
-		InsertTexture(13, "Green, Service, Without Plow");
-		InsertTexture(14, "Green, Maintinence, With Plow");
-		InsertTexture(15, "Green, Maintinence, Without Plow");
-		InsertTexture(16, "Gulfiber, Service, With Plow");
-		InsertTexture(17, "Gulfiber, Service, Without Plow");
-		InsertTexture(18, "Gulfiber, Maintinence, With Plow");
-		InsertTexture(19, "Gulfiber, Maintinence, Without Plow");
+		InsertTexture(0, "SJ, No Slickepinnar, With Plow");
+		InsertTexture(1, "SJ, No Slickepinnar, Without Plow");
+		InsertTexture(2, "SJ, Slickepinnar, With Plow");
+		InsertTexture(3, "SJ, Slickepinnar, Without Plow");
+		InsertTexture(4, "GBBJ, Slickepinnar, With Plow");
+		InsertTexture(5, "GBBJ, Slickepinnar, Without Plow");
+		InsertTexture(6, "Green, Slickepinnar, With Plow");
+		InsertTexture(7, "Green, Slickepinnar, Without Plow");
+		InsertTexture(8, "Gulfiber, With Plow");
+		InsertTexture(9, "Gulfiber, Without Plow");
 	}
 
 	@Override
@@ -87,64 +118,34 @@ public class Swedish_PackEntityLocoDieselSJLittT23 extends DieselTrain {
 				String texturePath = "";
 				switch (colorAsString.toLowerCase()) {
 					case "yellow":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_S_WP";
+						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_WP";
 						break;
 					case "blue":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_S_NP";
+						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_NP";
 						break;
 					case "green":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_O_WP";
+						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_WP_ES";
 						break;
 					case "black":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_O_NP";
+						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_NP_ES";
 						break;
 					case "white":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_S_WP_ES";
+						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_WP_GBBJ";
 						break;
 					case "grey":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_S_NP_ES";
+						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_NP_GBBJ";
 						break;
 					case "magenta":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_O_WP_ES";
+						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_WP_ESG";
 						break;
 					case "lightblue":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_O_NP_ES";
+						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_NP_ESG";
 						break;
 					case "lime":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_S_WP_GBBJ";
+						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_WP_Gf";
 						break;
 					case "lightgrey":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_S_NP_GBBJ";
-						break;
-					case "cyan":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_O_WP_GBBJ";
-						break;
-					case "pink":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_O_NP_GBBJ";
-						break;
-					case "purple":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_S_WP_ESG";
-						break;
-					case "brown":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_S_NP_ESG";
-						break;
-					case "orange":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_O_WP_ESG";
-						break;
-					case "red":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_O_NP_ESG";
-						break;
-					case "skin16":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_S_WP_Gf";
-						break;
-					case "skin17":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_S_NP_Gf";
-						break;
-					case "skin18":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_O_WP_Gf";
-						break;
-					case "skin19":
-						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_O_NP_Gf";
+						texturePath = "textures/trains/Locomotives/Diesel/T23_/SJLittT23_NP_Gf";
 						break;
 				}
 				texturePath += ".png";

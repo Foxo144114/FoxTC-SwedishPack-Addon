@@ -93,183 +93,183 @@ public class ModelTGOJSJLittMaPanto extends ModelConverter //Same as Filename
 		bodyModel[59] = new ModelRendererTurbo(this, 433, 385, textureX, textureY); // Du loco part37
 
 		bodyModel[0].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Du loco part37
-		bodyModel[0].setRotationPoint(8F, -37F, -4F);
+		bodyModel[0].setRotationPoint(7F, -37F, -4F);
 
 		bodyModel[1].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Du loco part37
-		bodyModel[1].setRotationPoint(8F, -37F, 3F);
+		bodyModel[1].setRotationPoint(7F, -37F, 3F);
 
 		bodyModel[2].addBox(0F, 0F, 0F, 1, 1, 12, 0F); // Du loco part37
-		bodyModel[2].setRotationPoint(9F, -38F, -6F);
+		bodyModel[2].setRotationPoint(8F, -38F, -6F);
 
 		bodyModel[3].addShapeBox(0F, 0F, 0F, 1, 2, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[3].setRotationPoint(9F, -38F, 6F);
+		bodyModel[3].setRotationPoint(8F, -38F, 6F);
 
 		bodyModel[4].addShapeBox(0F, 0F, 0F, 1, 2, 2, 0F,0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F); // Du loco part37
-		bodyModel[4].setRotationPoint(9F, -38F, -8F);
+		bodyModel[4].setRotationPoint(8F, -38F, -8F);
 
 		bodyModel[5].addShapeBox(0F, 0F, 0F, 9, 2, 1, 0F,0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F); // Du loco part37
-		bodyModel[5].setRotationPoint(-3F, -35F, -5F);
+		bodyModel[5].setRotationPoint(-4F, -35F, -5F);
 
 		bodyModel[6].addShapeBox(0F, 0F, 0F, 12, 2, 1, 0F,0F, -1F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -2F, 0F, 0F, -2F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[6].setRotationPoint(-3F, -36F, -4F);
+		bodyModel[6].setRotationPoint(-4F, -36F, -4F);
 
 		bodyModel[7].addShapeBox(0F, 0F, 0F, 6, 7, 1, 0F,0F, -6F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[7].setRotationPoint(94F, -40F, 4F);
+		bodyModel[7].setRotationPoint(95F, -40F, 4F);
 
 		bodyModel[8].addShapeBox(0F, 0F, 0F, 6, 7, 1, 0F,0F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -6F, 0F); // Du loco part37
-		bodyModel[8].setRotationPoint(81F, -40F, 4F);
+		bodyModel[8].setRotationPoint(82F, -40F, 4F);
 
 		bodyModel[9].addShapeBox(0F, 0F, 0F, 9, 7, 1, 0F,-1F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, -1F, 0F, 0F, 0F, -7F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -7F, 0F); // Du loco part37
-		bodyModel[9].setRotationPoint(91F, -46F, 3F);
+		bodyModel[9].setRotationPoint(92F, -46F, 3F);
 
 		bodyModel[10].addShapeBox(0F, 0F, 0F, 9, 7, 1, 0F,0F, -6F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -7F, 0F, 0F, -7F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[10].setRotationPoint(81F, -46F, 3F);
+		bodyModel[10].setRotationPoint(82F, -46F, 3F);
 
 		bodyModel[11].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Du loco part37
-		bodyModel[11].setRotationPoint(89F, -47F, -4F);
+		bodyModel[11].setRotationPoint(90F, -47F, -4F);
 
 		bodyModel[12].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Du loco part37
-		bodyModel[12].setRotationPoint(89F, -47F, 3F);
+		bodyModel[12].setRotationPoint(90F, -47F, 3F);
 
 		bodyModel[13].addShapeBox(0F, 0F, 0F, 6, 7, 1, 0F,0F, -6F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[13].setRotationPoint(94F, -40F, -5F);
+		bodyModel[13].setRotationPoint(95F, -40F, -5F);
 
 		bodyModel[14].addShapeBox(0F, 0F, 0F, 6, 7, 1, 0F,0F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -6F, 0F); // Du loco part37
-		bodyModel[14].setRotationPoint(81F, -40F, -5F);
+		bodyModel[14].setRotationPoint(82F, -40F, -5F);
 
 		bodyModel[15].addShapeBox(0F, 0F, 0F, 9, 7, 1, 0F,-1F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, -1F, 0F, 0F, 0F, -7F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -7F, 0F); // Du loco part37
-		bodyModel[15].setRotationPoint(91F, -46F, -4F);
+		bodyModel[15].setRotationPoint(92F, -46F, -4F);
 
 		bodyModel[16].addShapeBox(0F, 0F, 0F, 9, 7, 1, 0F,0F, -6F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -7F, 0F, 0F, -7F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[16].setRotationPoint(81F, -46F, -4F);
+		bodyModel[16].setRotationPoint(82F, -46F, -4F);
 
 		bodyModel[17].addShapeBox(0F, 0F, 0F, 9, 2, 1, 0F,0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[17].setRotationPoint(13F, -35F, 4F);
+		bodyModel[17].setRotationPoint(12F, -35F, 4F);
 
 		bodyModel[18].addShapeBox(0F, 0F, 0F, 11, 2, 8, 0F,0F, -1F, 0F, 0F, -2F, -7F, 0F, -2F, 0F, 0F, -1F, -7F, 0F, -1F, 0F, 0F, 0F, -7F, 0F, 0F, 0F, 0F, -1F, -7F); // Du loco part37
-		bodyModel[18].setRotationPoint(11F, -37F, -4F);
+		bodyModel[18].setRotationPoint(10F, -37F, -4F);
 
 		bodyModel[19].addShapeBox(0F, 0F, 0F, 9, 2, 1, 0F,0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F); // Du loco part37
-		bodyModel[19].setRotationPoint(-3F, -35F, 4F);
+		bodyModel[19].setRotationPoint(-4F, -35F, 4F);
 
 		bodyModel[20].addShapeBox(0F, 0F, 0F, 12, 2, 1, 0F,0F, -1F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -2F, 0F, 0F, -2F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[20].setRotationPoint(-3F, -36F, 3F);
+		bodyModel[20].setRotationPoint(-4F, -36F, 3F);
 
 		bodyModel[21].addShapeBox(0F, 0F, 0F, 9, 2, 1, 0F,0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[21].setRotationPoint(13F, -35F, -5F);
+		bodyModel[21].setRotationPoint(12F, -35F, -5F);
 
 		bodyModel[22].addShapeBox(0F, 0F, 0F, 12, 2, 1, 0F,-1F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, -1F, 0F, 0F, 0F, -2F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -2F, 0F); // Du loco part37
-		bodyModel[22].setRotationPoint(10F, -36F, -4F);
+		bodyModel[22].setRotationPoint(9F, -36F, -4F);
 
 		bodyModel[23].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Du loco part37
-		bodyModel[23].setRotationPoint(89F, -37F, -4F);
+		bodyModel[23].setRotationPoint(90F, -37F, -4F);
 
 		bodyModel[24].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Du loco part37
-		bodyModel[24].setRotationPoint(89F, -37F, 3F);
+		bodyModel[24].setRotationPoint(90F, -37F, 3F);
 
 		bodyModel[25].addShapeBox(0F, 0F, 0F, 9, 2, 1, 0F,0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F); // Du loco part37
-		bodyModel[25].setRotationPoint(78F, -35F, -5F);
+		bodyModel[25].setRotationPoint(79F, -35F, -5F);
 
 		bodyModel[26].addShapeBox(0F, 0F, 0F, 12, 2, 1, 0F,0F, -1F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -2F, 0F, 0F, -2F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[26].setRotationPoint(78F, -36F, -4F);
+		bodyModel[26].setRotationPoint(79F, -36F, -4F);
 
 		bodyModel[27].addShapeBox(0F, 0F, 0F, 9, 2, 1, 0F,0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[27].setRotationPoint(94F, -35F, 4F);
+		bodyModel[27].setRotationPoint(95F, -35F, 4F);
 
 		bodyModel[28].addShapeBox(0F, 0F, 0F, 12, 2, 1, 0F,-1F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, -1F, 0F, 0F, 0F, -2F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -2F, 0F); // Du loco part37
-		bodyModel[28].setRotationPoint(91F, -36F, 3F);
+		bodyModel[28].setRotationPoint(92F, -36F, 3F);
 
 		bodyModel[29].addShapeBox(0F, 0F, 0F, 9, 2, 1, 0F,0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F); // Du loco part37
-		bodyModel[29].setRotationPoint(78F, -35F, 4F);
+		bodyModel[29].setRotationPoint(79F, -35F, 4F);
 
 		bodyModel[30].addShapeBox(0F, 0F, 0F, 12, 2, 1, 0F,0F, -1F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -2F, 0F, 0F, -2F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[30].setRotationPoint(78F, -36F, 3F);
+		bodyModel[30].setRotationPoint(79F, -36F, 3F);
 
 		bodyModel[31].addShapeBox(0F, 0F, 0F, 9, 2, 1, 0F,0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[31].setRotationPoint(94F, -35F, -5F);
+		bodyModel[31].setRotationPoint(95F, -35F, -5F);
 
 		bodyModel[32].addShapeBox(0F, 0F, 0F, 12, 2, 1, 0F,-1F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, -1F, 0F, 0F, 0F, -2F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -2F, 0F); // Du loco part37
-		bodyModel[32].setRotationPoint(91F, -36F, -4F);
+		bodyModel[32].setRotationPoint(92F, -36F, -4F);
 
 		bodyModel[33].addShapeBox(0F, 0F, 0F, 6, 7, 1, 0F,0F, -6F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[33].setRotationPoint(13F, -40F, 4F);
+		bodyModel[33].setRotationPoint(12F, -40F, 4F);
 
 		bodyModel[34].addShapeBox(0F, 0F, 0F, 6, 7, 1, 0F,0F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -6F, 0F); // Du loco part37
-		bodyModel[34].setRotationPoint(0F, -40F, 4F);
+		bodyModel[34].setRotationPoint(-1F, -40F, 4F);
 
 		bodyModel[35].addShapeBox(0F, 0F, 0F, 9, 7, 1, 0F,-1F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, -1F, 0F, 0F, 0F, -7F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -7F, 0F); // Du loco part37
-		bodyModel[35].setRotationPoint(10F, -46F, 3F);
+		bodyModel[35].setRotationPoint(9F, -46F, 3F);
 
 		bodyModel[36].addShapeBox(0F, 0F, 0F, 9, 7, 1, 0F,0F, -6F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -7F, 0F, 0F, -7F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[36].setRotationPoint(0F, -46F, 3F);
+		bodyModel[36].setRotationPoint(-1F, -46F, 3F);
 
 		bodyModel[37].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Du loco part37
-		bodyModel[37].setRotationPoint(8F, -47F, -4F);
+		bodyModel[37].setRotationPoint(7F, -47F, -4F);
 
 		bodyModel[38].addBox(0F, 0F, 0F, 3, 1, 1, 0F); // Du loco part37
-		bodyModel[38].setRotationPoint(8F, -47F, 3F);
+		bodyModel[38].setRotationPoint(7F, -47F, 3F);
 
 		bodyModel[39].addShapeBox(0F, 0F, 0F, 6, 7, 1, 0F,0F, -6F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[39].setRotationPoint(13F, -40F, -5F);
+		bodyModel[39].setRotationPoint(12F, -40F, -5F);
 
 		bodyModel[40].addShapeBox(0F, 0F, 0F, 6, 7, 1, 0F,0F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -6F, 0F); // Du loco part37
-		bodyModel[40].setRotationPoint(0F, -40F, -5F);
+		bodyModel[40].setRotationPoint(-1F, -40F, -5F);
 
 		bodyModel[41].addShapeBox(0F, 0F, 0F, 9, 7, 1, 0F,-1F, 0F, 0F, 0F, -6F, 0F, 0F, -6F, 0F, -1F, 0F, 0F, 0F, -7F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -7F, 0F); // Du loco part37
-		bodyModel[41].setRotationPoint(10F, -46F, -4F);
+		bodyModel[41].setRotationPoint(9F, -46F, -4F);
 
 		bodyModel[42].addShapeBox(0F, 0F, 0F, 9, 7, 1, 0F,0F, -6F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, -6F, 0F, 0F, 0F, 0F, 0F, -7F, 0F, 0F, -7F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[42].setRotationPoint(0F, -46F, -4F);
+		bodyModel[42].setRotationPoint(-1F, -46F, -4F);
 
 		bodyModel[43].addShapeBox(0F, 0F, 0F, 8, 6, 8, 0F,0F, 0F, 0F, 0F, -6F, -7F, 0F, -6F, 0F, 0F, 0F, -7F, 0F, -6F, 0F, 0F, 0F, -7F, 0F, 0F, 0F, 0F, -6F, -7F); // Du loco part37
-		bodyModel[43].setRotationPoint(11F, -46F, -4F);
+		bodyModel[43].setRotationPoint(10F, -46F, -4F);
 
 		bodyModel[44].addShapeBox(0F, 0F, 0F, 8, 6, 8, 0F,0F, 0F, -7F, 0F, -6F, 0F, 0F, -6F, -7F, 0F, 0F, 0F, 0F, -6F, -7F, 0F, 0F, 0F, 0F, 0F, -7F, 0F, -6F, 0F); // Du loco part37
-		bodyModel[44].setRotationPoint(11F, -46F, -4F);
+		bodyModel[44].setRotationPoint(10F, -46F, -4F);
 
 		bodyModel[45].addShapeBox(0F, 0F, 0F, 12, 2, 1, 0F,-1F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, -1F, 0F, 0F, 0F, -2F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -2F, 0F); // Du loco part37
-		bodyModel[45].setRotationPoint(10F, -36F, 3F);
+		bodyModel[45].setRotationPoint(9F, -36F, 3F);
 
 		bodyModel[46].addShapeBox(0F, 0F, 0F, 11, 2, 8, 0F,0F, -1F, -7F, 0F, -2F, 0F, 0F, -2F, -7F, 0F, -1F, 0F, 0F, -1F, -7F, 0F, 0F, 0F, 0F, 0F, -7F, 0F, -1F, 0F); // Du loco part37
-		bodyModel[46].setRotationPoint(11F, -37F, -4F);
+		bodyModel[46].setRotationPoint(10F, -37F, -4F);
 
 		bodyModel[47].addShapeBox(0F, 0F, 0F, 11, 2, 8, 0F,0F, -2F, -7F, 0F, -1F, 0F, 0F, -1F, -7F, 0F, -2F, 0F, 0F, 0F, -7F, 0F, -1F, 0F, 0F, -1F, -7F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[47].setRotationPoint(78F, -37F, -4F);
+		bodyModel[47].setRotationPoint(79F, -37F, -4F);
 
 		bodyModel[48].addShapeBox(0F, 0F, 0F, 8, 6, 8, 0F,0F, -6F, -7F, 0F, 0F, 0F, 0F, 0F, -7F, 0F, -6F, 0F, 0F, 0F, -7F, 0F, -6F, 0F, 0F, -6F, -7F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[48].setRotationPoint(81F, -46F, -4F);
+		bodyModel[48].setRotationPoint(82F, -46F, -4F);
 
 		bodyModel[49].addShapeBox(0F, 0F, 0F, 8, 6, 8, 0F,0F, -6F, 0F, 0F, 0F, -7F, 0F, 0F, 0F, 0F, -6F, -7F, 0F, 0F, 0F, 0F, -6F, -7F, 0F, -6F, 0F, 0F, 0F, -7F); // Du loco part37
-		bodyModel[49].setRotationPoint(81F, -46F, -4F);
+		bodyModel[49].setRotationPoint(82F, -46F, -4F);
 
 		bodyModel[50].addShapeBox(0F, 0F, 0F, 11, 2, 8, 0F,0F, -2F, 0F, 0F, -1F, -7F, 0F, -1F, 0F, 0F, -2F, -7F, 0F, 0F, 0F, 0F, -1F, -7F, 0F, -1F, 0F, 0F, 0F, -7F); // Du loco part37
-		bodyModel[50].setRotationPoint(78F, -37F, -4F);
+		bodyModel[50].setRotationPoint(79F, -37F, -4F);
 
 		bodyModel[51].addBox(0F, 0F, 0F, 1, 1, 12, 0F); // Du loco part37
-		bodyModel[51].setRotationPoint(9F, -48F, -6F);
+		bodyModel[51].setRotationPoint(8F, -48F, -6F);
 
 		bodyModel[52].addShapeBox(0F, 0F, 0F, 1, 2, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[52].setRotationPoint(9F, -48F, 6F);
+		bodyModel[52].setRotationPoint(8F, -48F, 6F);
 
 		bodyModel[53].addShapeBox(0F, 0F, 0F, 1, 2, 2, 0F,0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F); // Du loco part37
-		bodyModel[53].setRotationPoint(9F, -48F, -8F);
+		bodyModel[53].setRotationPoint(8F, -48F, -8F);
 
 		bodyModel[54].addBox(0F, 0F, 0F, 1, 1, 12, 0F); // Du loco part37
-		bodyModel[54].setRotationPoint(90F, -48F, -6F);
+		bodyModel[54].setRotationPoint(91F, -48F, -6F);
 
 		bodyModel[55].addShapeBox(0F, 0F, 0F, 1, 2, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[55].setRotationPoint(90F, -48F, 6F);
+		bodyModel[55].setRotationPoint(91F, -48F, 6F);
 
 		bodyModel[56].addShapeBox(0F, 0F, 0F, 1, 2, 2, 0F,0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F); // Du loco part37
-		bodyModel[56].setRotationPoint(90F, -48F, -8F);
+		bodyModel[56].setRotationPoint(91F, -48F, -8F);
 
 		bodyModel[57].addBox(0F, 0F, 0F, 1, 1, 12, 0F); // Du loco part37
-		bodyModel[57].setRotationPoint(90F, -38F, -6F);
+		bodyModel[57].setRotationPoint(91F, -38F, -6F);
 
 		bodyModel[58].addShapeBox(0F, 0F, 0F, 1, 2, 2, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Du loco part37
-		bodyModel[58].setRotationPoint(90F, -38F, 6F);
+		bodyModel[58].setRotationPoint(91F, -38F, 6F);
 
 		bodyModel[59].addShapeBox(0F, 0F, 0F, 1, 2, 2, 0F,0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F); // Du loco part37
-		bodyModel[59].setRotationPoint(90F, -38F, -8F);
+		bodyModel[59].setRotationPoint(91F, -38F, -8F);
 	}
 }

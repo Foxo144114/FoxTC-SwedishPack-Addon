@@ -3,6 +3,7 @@ package swedishpack.common.rollingStock.Locomotives.Steam;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
+import swedishpack.client.render.models.ModelSJLittB1919Smoke;
 import swedishpack.client.render.models.ModelSJLittB1919;
 import swedishpack.common.library.Swedish_PackAddonInfo;
 import train.client.render.register.TrainRenderRecord;
@@ -10,6 +11,8 @@ import train.common.Traincraft;
 import train.common.api.LiquidManager;
 import train.common.api.SteamTrain;
 import train.common.core.util.TraincraftUtil;
+import train.common.entity.CargoManager;
+import train.common.entity.CargoSpecification;
 import train.common.library.Info;
 import train.common.library.sounds.SoundRecord;
 
@@ -27,6 +30,19 @@ public class Swedish_PackEntityLocoSteamSJLittB1919 extends SteamTrain {
 	public Swedish_PackEntityLocoSteamSJLittB1919(World world) {
 		super(world, Traincraft.traincraftRegistry.getTrainRecord(Swedish_PackEntityLocoSteamSJLittB1919.class).getTankCapacity(), LiquidManager.WATER_FILTER);
 		setupTextureDescription();
+		setCargoManager(new CargoManager(new CargoSpecification[][]
+				{
+						{ new CargoSpecification(ModelSJLittB1919Smoke.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Steam/Smoke/B1919_/SJLittB1919_S", "Smokebox Closed, In Service",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+						{ new CargoSpecification(ModelSJLittB1919Smoke.class,
+								Swedish_PackAddonInfo.modID, "trains/Locomotives/Steam/Smoke/B1919_/SJLittB1919_M", "Smokebox Open, Maintinence",
+								new CargoSpecification.RenderParameters().setOffset(0,3.0,0))
+						},
+
+
+				}).disableUnselectedSlot());
 	}
 
 	@Override
@@ -37,12 +53,9 @@ public class Swedish_PackEntityLocoSteamSJLittB1919 extends SteamTrain {
 
 
 	public void setupTextureDescription() {
-		InsertTexture(0, "Black, Normal, Service");
-		InsertTexture(1, "Black, Normal, Maintinence");
-		InsertTexture(2, "Blue, Normal,, Service");
-		InsertTexture(3, "Blue, Normal, Maintinence");
-		InsertTexture(4, "Black, JärnvägsMuseet, Service");
-		InsertTexture(5, "Black, JärnvägsMuseet, Maintinence");
+		InsertTexture(0, "Black, Normal");
+		InsertTexture(1, "Blue, Normal");
+		InsertTexture(2, "Black, JärnvägsMuseet");
 	}
 
 
@@ -86,23 +99,15 @@ public class Swedish_PackEntityLocoSteamSJLittB1919 extends SteamTrain {
 				String texturePath = "";
 				switch (colorAsString.toLowerCase()) {
 					case "yellow":
-						texturePath = "textures/trains/Locomotives/Steam/B1919_/SJLittB1919_S_V_S";
+						texturePath = "textures/trains/Locomotives/Steam/B1919_/SJLittB1919_S_V";
 						break;
 					case "blue":
-						texturePath = "textures/trains/Locomotives/Steam/B1919_/SJLittB1919_S_V_M";
+						texturePath = "textures/trains/Locomotives/Steam/B1919_/SJLittB1919_B_V";
 						break;
 					case "green":
-						texturePath = "textures/trains/Locomotives/Steam/B1919_/SJLittB1919_B_V_S";
+						texturePath = "textures/trains/Locomotives/Steam/B1919_/SJLittB1919_S_M";
 						break;
-					case "black":
-						texturePath = "textures/trains/Locomotives/Steam/B1919_/SJLittB1919_B_V_M";
-						break;
-					case "white":
-						texturePath = "textures/trains/Locomotives/Steam/B1919_/SJLittB1919_S_M_S";
-						break;
-					case "grey":
-						texturePath = "textures/trains/Locomotives/Steam/B1919_/SJLittB1919_S_M_M";
-						break;
+
 				}
 				texturePath += ".png";
 
