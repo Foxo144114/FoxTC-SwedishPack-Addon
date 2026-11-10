@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "stock": "swedishpack:tgoj_litterera_bt",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "swedishpack:yellow": {},
+    "swedishpack:blue": {},
+    "swedishpack:green": {},
+    "swedishpack:black": {},
+    "swedishpack:white": {},
+    "swedishpack:grey": {},
+    "swedishpack:magenta": {},
+    "swedishpack:lightblue": {},
+    "swedishpack:lime": {},
+    "swedishpack:lightgrey": {},
+    "swedishpack:cyan": {},
+    "swedishpack:pink": {},
+    "swedishpack:purple": {},
+    "swedishpack:brown": {},
+    "swedishpack:orange": {}
+  }
+}

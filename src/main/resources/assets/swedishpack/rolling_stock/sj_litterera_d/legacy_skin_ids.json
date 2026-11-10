@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "legacyColors": {
+    "14": "swedishpack:orange",
+    "1": "swedishpack:red",
+    "3": "swedishpack:brown"
+  },
+  "stock": "swedishpack:sj_litterera_d"
+}

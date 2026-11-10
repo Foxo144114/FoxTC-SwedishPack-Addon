@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "legacyColors": {
+    "4": "swedishpack:blue",
+    "2": "swedishpack:green",
+    "1": "swedishpack:red",
+    "11": "swedishpack:yellow"
+  },
+  "stock": "swedishpack:litterera_lgs-722"
+}

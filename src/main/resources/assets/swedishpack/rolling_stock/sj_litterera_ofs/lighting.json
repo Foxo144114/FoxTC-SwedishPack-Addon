@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "stock": "swedishpack:sj_litterera_ofs",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "swedishpack:yellow": {},
+    "swedishpack:blue": {}
+  }
+}

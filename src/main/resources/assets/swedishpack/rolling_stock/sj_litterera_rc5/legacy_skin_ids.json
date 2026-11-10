@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "legacyColors": {
+    "11": "swedishpack:yellow",
+    "4": "swedishpack:blue",
+    "2": "swedishpack:green",
+    "0": "swedishpack:black",
+    "15": "swedishpack:white",
+    "8": "swedishpack:grey",
+    "13": "swedishpack:magenta",
+    "12": "swedishpack:lightblue",
+    "10": "swedishpack:lime",
+    "7": "swedishpack:lightgrey",
+    "6": "swedishpack:cyan",
+    "9": "swedishpack:pink",
+    "5": "swedishpack:purple",
+    "3": "swedishpack:brown",
+    "14": "swedishpack:orange"
+  },
+  "stock": "swedishpack:sj_litterera_rc5"
+}

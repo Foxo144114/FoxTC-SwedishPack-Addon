@@ -23,6 +23,7 @@ item.tc:minecartAmCafe2	AmCafe2	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.
 item.tc:minecartAmfleet	Amfleet	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.Amfleet	amfleet_
 item.tc:minecartAmfleet2	Amfleet2	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.Amfleet2	amfleet2_
 item.tc:minecartAmfleetCab	AmfleetCab	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.controlcar.AmfleetCab	amfleet_Cabber_
+item.tc:minecartBSC3483	BSC3483	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.BSC3483	BSC_3483_
 item.tc:minecartF7BSlug	F7BSlug	com.jcirmodelsquad.tcjcir.vehicles.locomotives.BUnitF7	Skin_Plane_ThisErrorIsERatedForEveryone
 item.tc:minecartBethgonII	BethgonII	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.BethgonII	Bethgon_
 item.tc:minecartBigMeme	BigMeme	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.BigMeme	bigmeme_
@@ -64,6 +65,9 @@ item.tc:minecartDRGWRPO620Series	D&RGW RPO 620 Series	com.jcirmodelsquad.tcjcir.
 item.tc:minecartDRGWRPO630Series	D&RGW RPO 630 Series	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.DRGWRPO630Series	DRGW_RPO_630_Series_
 item.tc:minecartDRGWCaboose	DRGWCaboose	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.workcart.DRGWboose	BAP_DRGW_01400_
 item.tc:minecartDUPX39200	DUPX39200	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tanker.DUPX39200	dupx_39200_
+item.tc:minecart0_6_6_0_1000_2B_DE	0660_1000_2B_DE	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Diesel0_6_6_0_1000_2B_DE	0660_100_2B_DE_
+item.tc:minecart0_6_6_0_1000_2_DE	0660_1000_2_DE	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Diesel0_6_6_0_1000_2_DE	0660_100_2_DE_
+item.tc:minecart0_6_6_0_1000_2_DE_68	0660_1000_2_DE_68	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Diesel0_6_6_0_1000_2_DE_68	0660_100_2_DE_68_
 item.tc:minecart4ED172T	4ED172T	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Diesel4ED172T	4ED-172T_
 item.tc:minecart4ED172T_C	4ED172T_C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Diesel4ED172T_C	4ED-172T_C_
 item.tc:minecart4ED172T_E	4ED172T_E	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Diesel4ED172T_E	4ED-172T_E_
@@ -99,7 +103,10 @@ item.tc:minecartDR441500BPhase2	DR441500BPhase2	com.jcirmodelsquad.tcjcir.vehicl
 item.tc:minecartDR441500BShark	DR441500BShark	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDR441500BShark	DR441500BShark_
 item.tc:minecartDR441500Phase2	DR441500Phase2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDR441500Phase2	DR441500Phase2_
 item.tc:minecartDR441500Shark	DR441500Shark	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDR441500Shark	DR441500Shark_
+item.tc:minecartDRX642000	DRX642000	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDRX642000	DRX642000_
 item.tc:minecartDS441000	DS441000	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDS441000	DS441000_
+item.tc:minecartDT662000	DT662000	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDT662000	DT662000_
+item.tc:minecartDT662000NA	DT662000NA	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDT662000NA	DT662000NA_
 item.tc:minecartDash818BE	Dash818BE	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash818BE	b18-8e_
 item.tc:minecartDash832BWH	Dash832BWH	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash832BWH	b32-8wh_
 item.tc:minecartDash839B	Dash839B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash839B	b39-8_
@@ -202,6 +209,7 @@ item.tc:minecartRS2	RS2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Di
 item.tc:minecartRS3	RS3	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRS3	rs3_
 item.tc:minecartRSD15	RSD15	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRSD15	rsd15_
 item.tc:minecartRSFDL	RSFDL	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRSFDL	rsfdl_
+item.tc:minecartRT624	RT624	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRT624	RT624_
 item.tc:minecartS12	S12	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselS12	S12_
 item.tc:minecartS2	S2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselS2	alcos2_
 item.tc:minecartSB18B	SB18B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSB18B	SB18B_
@@ -467,6 +475,7 @@ item.tc:minecartWork	Work Cart Yellow	train.common.entity.rollingStock.workcart.
 item.tc:minecartEvans5100	Evans5100	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Evans5100	Evans_5100_
 item.tc:minecartEvansCoilCar	EvansCoilCar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.EvansCoilCar	EvansCoilCar_
 item.tc:minecartGeometryCar	NXTrack Geometry Car	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.misc.ExperimentalGeometryCar	geometrycar_
+item.tc:minecartFMCWoodchip	FMCWoodchip	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FMCWoodchip	fmcwoodchip_
 item.tc:minecartFNCC2375Hopper	FNCC2375Hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FNCC2375Hopper	FNCC2375_
 item.tc:minecartFNCC50Foot	FNCC50FootBoxcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FNCC50Foot	FNCC50Foot_
 item.tc:minecartFNCC60FootBulk	FNCC60FootBulk	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FNCC60FootBulk	FNCC60FootBulk_
@@ -600,6 +609,7 @@ item.tc:minecartFourCorTail	FourCorTail	com.jcirmodelsquad.tcjcir.vehicles.rolli
 item.tc:minecartFourCorTrailerComposite	FourCorTrailerComposite	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerFourCorTrailerComposite	4-cor_trailer_
 item.tc:minecartFourCorTrailerSecond	FourCorTrailerSecond	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerFourCorTrailerSecond	4-cor_trailer_
 item.tc:minecartTwoBilTail	TwoBilTail	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerTwoBilTail	2-bil_
+item.tc:minecartPullman69ChairCar	Pullman 69' Chair Car	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.Pullman69ChairCar	Pullman69ChairCar_
 item.tc:minecartR70Reefer	R70Reefer	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.R70Reefer	R70Reefer_
 item.tc:minecartR70Reefer2	R70Reefer2	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.R70Reefer2	R-70-15_
 item.tc:minecartReefer64	Reefer64	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Reefer64Foot	reefer_64_

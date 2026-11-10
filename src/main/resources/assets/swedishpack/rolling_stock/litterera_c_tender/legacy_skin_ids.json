@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "legacyColors": {
+    "4": "swedishpack:blue",
+    "1": "swedishpack:red",
+    "11": "swedishpack:yellow"
+  },
+  "stock": "swedishpack:litterera_c_tender"
+}
