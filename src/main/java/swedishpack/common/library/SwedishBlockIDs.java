@@ -15,6 +15,9 @@ public enum SwedishBlockIDs implements IBlockIDs {
     SvensktVaxelKlotBlackSide1(ItemBlockSwitchStand.class),
     SvensktVaxelKlotBlackSide2(ItemBlockSwitchStand.class),
 
+    SvensktMotorVaxelSide1(ItemBlockSwitchStand.class),
+    SvensktMotorVaxelSide2(ItemBlockSwitchStand.class),
+
     PlatformEdgeAsphalt(null),
     PlatformEdgeTiles(null),
     PlatformEdgeThinTiles(null),

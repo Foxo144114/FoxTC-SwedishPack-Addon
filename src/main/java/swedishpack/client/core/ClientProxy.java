@@ -43,6 +43,16 @@ public class ClientProxy extends CommonProxy
                 new RenderOnOffSwitchStand(SwedishSwitchStandRenderDefinitions.create("Black", true)));
         MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(SwedishBlockIDs.SvensktVaxelKlotBlackSide2.block), new ItemRendererSvensktVaxelKlotBlackSide2());
 
+        ClientRegistry.bindTileEntitySpecialRenderer(tileSvensktMotorVaxelSide1.class,
+                new RenderOnOffSwitchStand(SwedishSwitchStandRenderDefinitions.create("Black", false)));
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(SwedishBlockIDs.SvensktMotorVaxelSide1.block), new ItemRendererSvensktMotorVaxelSide1());
+
+        ClientRegistry.bindTileEntitySpecialRenderer(tileSvensktMotorVaxelSide2.class,
+                new RenderOnOffSwitchStand(SwedishSwitchStandRenderDefinitions.create("Black", true)));
+        MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(SwedishBlockIDs.SvensktMotorVaxelSide2.block), new ItemRendererSvensktMotorVaxelSide2());
+
+
+
         ClientRegistry.bindTileEntitySpecialRenderer(tilePlatformEdgeAsphalt.class, new tileRendererPlatformEdgeAsphalt());
         MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(SwedishBlockIDs.PlatformEdgeAsphalt.block), new ItemRendererPlatformEdgeAsphalt());
         ClientRegistry.bindTileEntitySpecialRenderer(tilePlatformEdgeTiles.class, new tileRendererPlatformEdgeTiles());

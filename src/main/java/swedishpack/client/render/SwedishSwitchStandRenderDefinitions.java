@@ -4,6 +4,8 @@ import net.minecraft.client.model.ModelBase;
 import net.minecraft.util.ResourceLocation;
 import swedishpack.client.render.models.blocks.ModelSvensktVaxelKlotOff;
 import swedishpack.client.render.models.blocks.ModelSvensktVaxelKlotOn;
+import swedishpack.client.render.models.blocks.ModelSwedishMotoroff;
+import swedishpack.client.render.models.blocks.ModelSwedishMotoron;
 import swedishpack.common.library.Swedish_PackAddonInfo;
 import train.client.render.OnOffSwitchStandRenderDefinition;
 import train.client.render.OnOffSwitchStandRenderDefinition.Transform;
@@ -23,6 +25,7 @@ public final class SwedishSwitchStandRenderDefinitions {
                 0.5D, 0.0D, 0.5D, 0.0D, 90.0D, 0.0D,
                 facing(270.0D), facing(90.0D), facing(0.0D), facing(180.0D));
     }
+
 
     private static Transform facing(double rotationY) {
         return new Transform(0.0D, rotationY, 180.0D, 0.0D, 0.0D, 0.0D);
