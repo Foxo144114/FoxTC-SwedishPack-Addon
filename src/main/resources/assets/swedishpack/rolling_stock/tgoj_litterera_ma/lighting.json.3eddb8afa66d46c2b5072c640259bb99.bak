@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "stock": "swedishpack:tgoj_litterera_ma",
+  "lighting": {
+    "defaults": {
+      "fixtures": {
+        "frontbot_bleft": {
+          "preset": "headlight"
+        },
+        "frontbot_bleft1": {
+          "group": "frontbot_bleft"
+        },
+        "frontbot_bleft2": {
+          "group": "frontbot_bleft"
+        },
+        "frontbot_bleft3": {
+          "group": "frontbot_bleft"
+        },
+        "frontbot_bright": {
+          "preset": "headlight"
+        },
+        "frontbot_bright1": {
+          "group": "frontbot_bright"
+        },
+        "frontbot_bright2": {
+          "group": "frontbot_bright"
+        },
+        "frontbot_bright3": {
+          "group": "frontbot_bright"
+        },
+        "frontbot_sleft": {
+          "preset": "headlight"
+        },
+        "frontbot_sleft1": {
+          "group": "frontbot_sleft"
+        },
+        "frontbot_sleft2": {
+          "group": "frontbot_sleft"
+        },
+        "frontbot_sleft3": {
+          "group": "frontbot_sleft"
+        },
+        "frontbot_sright": {
+          "preset": "headlight"
+        },
+        "frontbot_sright1": {
+          "group": "frontbot_sright"
+        },
+        "frontbot_sright2": {
+          "group": "frontbot_sright"
+        },
+        "frontbot_sright3": {
+          "group": "frontbot_sright"
+        },
+        "fronttop_aleft": {},
+        "fronttop_aleft1": {
+          "group": "fronttop_aleft"
+        },
+        "fronttop_aleft2": {
+          "group": "fronttop_aleft"
+        },
+        "fronttop_aleft3": {
+          "group": "fronttop_aleft"
+        },
+        "fronttop_aright": {},
+        "fronttop_aright1": {
+          "group": "fronttop_aright"
+        },
+        "fronttop_aright2": {
+          "group": "fronttop_aright"
+        },
+        "fronttop_aright3": {
+          "group": "fronttop_aright"
+        },
+        "fronttop_big": {
+          "preset": "headlight",
+          "controlCircuit": "aux"
+        },
+        "fronttop_big1": {
+          "group": "fronttop_big"
+        },
+        "fronttop_big2": {
+          "group": "fronttop_big"
+        },
+        "fronttop_big3": {
+          "group": "fronttop_big"
+        },
+        "fronttop_fleft": {
+          "preset": "headlight",
+          "controlCircuit": "aux"
+        },
+        "fronttop_fleft1": {
+          "group": "fronttop_fleft"
+        },
+        "fronttop_fleft2": {
+          "group": "fronttop_fleft"
+        },
+        "fronttop_fleft3": {
+          "group": "fronttop_fleft"
+        },
+        "fronttop_fright": {},
+        "fronttop_fright1": {
+          "group": "fronttop_fright"
+        },
+        "fronttop_fright2": {
+          "group": "fronttop_fright"
+        },
+        "fronttop_fright3": {
+          "group": "fronttop_fright"
+        },
+        "fronttop_small": {
+          "preset": "marker_light",
+          "controlCircuit": "emergency"
+        },
+        "fronttop_small1": {
+          "group": "fronttop_small"
+        },
+        "fronttop_small2": {
+          "group": "fronttop_small"
+        },
+        "fronttop_small3": {
+          "group": "fronttop_small"
+        },
+        "rearbot_bleft": {
+          "preset": "headlight"
+        },
+        "rearbot_bleft1": {
+          "group": "rearbot_bleft"
+        },
+        "rearbot_bleft2": {
+          "group": "rearbot_bleft"
+        },
+        "rearbot_bleft3": {
+          "group": "rearbot_bleft"
+        },
+        "rearbot_bright": {
+          "preset": "headlight"
+        },
+        "rearbot_bright1": {
+          "group": "rearbot_bright"
+        },
+        "rearbot_bright2": {
+          "group": "rearbot_bright"
+        },
+        "rearbot_bright3": {
+          "group": "rearbot_bright"
+        },
+        "rearbot_sleft": {
+          "preset": "headlight"
+        },
+        "rearbot_sleft1": {
+          "group": "rearbot_sleft"
+        },
+        "rearbot_sleft2": {
+          "group": "rearbot_sleft"
+        },
+        "rearbot_sleft3": {
+          "group": "rearbot_sleft"
+        },
+        "rearbot_sright": {
+          "preset": "headlight"
+        },
+        "rearbot_sright1": {
+          "group": "rearbot_sright"
+        },
+        "rearbot_sright2": {
+          "group": "rearbot_sright"
+        },
+        "rearbot_sright3": {
+          "group": "rearbot_sright"
+        },
+        "reartop_aleft": {},
+        "reartop_aleft1": {
+          "group": "reartop_aleft"
+        },
+        "reartop_aleft2": {
+          "group": "reartop_aleft"
+        },
+        "reartop_aleft3": {
+          "group": "reartop_aleft"
+        },
+        "reartop_aright": {},
+        "reartop_aright1": {
+          "group": "reartop_aright"
+        },
+        "reartop_aright2": {
+          "group": "reartop_aright"
+        },
+        "reartop_aright3": {
+          "group": "reartop_aright"
+        },
+        "reartop_big": {
+          "preset": "headlight",
+          "controlCircuit": "gyra"
+        },
+        "reartop_big1": {
+          "group": "reartop_big"
+        },
+        "reartop_big2": {
+          "group": "reartop_big"
+        },
+        "reartop_big3": {
+          "group": "reartop_big"
+        },
+        "reartop_fleft": {},
+        "reartop_fleft1": {
+          "group": "reartop_fleft"
+        },
+        "reartop_fleft2": {
+          "group": "reartop_fleft"
+        },
+        "reartop_fleft3": {
+          "group": "reartop_fleft"
+        },
+        "reartop_fright": {
+          "preset": "headlight",
+          "controlCircuit": "gyra"
+        },
+        "reartop_fright1": {
+          "group": "reartop_fright"
+        },
+        "reartop_fright2": {
+          "group": "reartop_fright"
+        },
+        "reartop_fright3": {
+          "group": "reartop_fright"
+        },
+        "reartop_small": {
+          "preset": "marker_light",
+          "controlCircuit": "ditch"
+        },
+        "reartop_small1": {
+          "group": "reartop_small"
+        },
+        "reartop_small2": {
+          "group": "reartop_small"
+        },
+        "reartop_small3": {
+          "group": "reartop_small"
+        }
+      }
+    }
+  },
+  "skins": {
+    "swedishpack:yellow": {
+      "lighting": {
+        "fixtures": {
+          "reartop_fleft": {
+            "preset": "headlight",
+            "controlCircuit": "gyra"
+          },
+          "fronttop_fright": {
+            "preset": "headlight",
+            "controlCircuit": "aux"
+          }
+        }
+      }
+    },
+    "swedishpack:blue": {
+      "lighting": {
+        "fixtures": {
+          "fronttop_fright": {
+            "preset": "headlight",
+            "controlCircuit": "aux"
+          },
+          "reartop_fleft": {
+            "preset": "headlight",
+            "controlCircuit": "gyra"
+          }
+        }
+      }
+    },
+    "swedishpack:green": {
+      "lighting": {
+        "fixtures": {
+          "reartop_fleft": {
+            "preset": "headlight",
+            "controlCircuit": "gyra"
+          },
+          "fronttop_fright": {
+            "preset": "headlight",
+            "controlCircuit": "aux"
+          }
+        }
+      }
+    },
+    "swedishpack:black": {
+      "lighting": {
+        "fixtures": {
+          "fronttop_fright": {
+            "preset": "marker_light",
+            "controlCircuit": "emergency"
+          },
+          "reartop_fleft": {
+            "preset": "marker_light",
+            "controlCircuit": "ditch"
+          }
+        }
+      }
+    },
+    "swedishpack:white": {
+      "lighting": {
+        "fixtures": {
+          "reartop_fleft": {
+            "preset": "marker_light",
+            "controlCircuit": "ditch"
+          },
+          "fronttop_fright": {
+            "preset": "marker_light",
+            "controlCircuit": "emergency"
+          }
+        }
+      }
+    },
+    "swedishpack:grey": {
+      "lighting": {
+        "fixtures": {
+          "fronttop_fright": {
+            "preset": "marker_light",
+            "controlCircuit": "emergency"
+          },
+          "reartop_fleft": {
+            "preset": "marker_light",
+            "controlCircuit": "ditch"
+          }
+        }
+      }
+    },
+    "swedishpack:magenta": {
+      "lighting": {
+        "fixtures": {
+          "reartop_fleft": {
+            "preset": "marker_light",
+            "controlCircuit": "ditch"
+          },
+          "fronttop_fright": {
+            "preset": "marker_light",
+            "controlCircuit": "emergency"
+          }
+        }
+      }
+    },
+    "swedishpack:lightblue": {
+      "lighting": {
+        "fixtures": {
+          "fronttop_fright": {
+            "preset": "marker_light",
+            "controlCircuit": "emergency"
+          },
+          "reartop_fleft": {
+            "preset": "marker_light",
+            "controlCircuit": "ditch"
+          }
+        }
+      }
+    },
+    "swedishpack:lime": {
+      "lighting": {
+        "fixtures": {
+          "reartop_fleft": {
+            "preset": "marker_light",
+            "controlCircuit": "ditch"
+          },
+          "fronttop_fright": {
+            "preset": "marker_light",
+            "controlCircuit": "emergency"
+          }
+        }
+      }
+    },
+    "swedishpack:lightgrey": {
+      "lighting": {
+        "fixtures": {
+          "fronttop_fright": {
+            "preset": "marker_light",
+            "controlCircuit": "emergency"
+          },
+          "reartop_fleft": {
+            "preset": "marker_light",
+            "controlCircuit": "ditch"
+          }
+        }
+      }
+    },
+    "swedishpack:cyan": {},
+    "swedishpack:pink": {},
+    "swedishpack:purple": {},
+    "swedishpack:brown": {},
+    "swedishpack:orange": {},
+    "swedishpack:red": {},
+    "swedishpack:skin16": {},
+    "swedishpack:skin17": {},
+    "swedishpack:skin18": {},
+    "swedishpack:skin19": {},
+    "swedishpack:skin20": {}
+  }
+}

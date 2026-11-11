@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "stock": "swedishpack:sj_litterera_rc1",
+  "lighting": {
+    "defaults": {
+      "fixtures": {
+        "frontlight_bleft": {},
+        "frontlight_bleft1": {
+          "group": "frontlight_bleft"
+        },
+        "frontlight_bleft2": {
+          "group": "frontlight_bleft"
+        },
+        "frontlight_bleft3": {
+          "group": "frontlight_bleft"
+        },
+        "frontlight_bright": {},
+        "frontlight_bright1": {
+          "group": "frontlight_bright"
+        },
+        "frontlight_bright2": {
+          "group": "frontlight_bright"
+        },
+        "frontlight_bright3": {
+          "group": "frontlight_bright"
+        },
+        "frontlight_topleft": {},
+        "frontlight_topleft1": {
+          "group": "frontlight_topleft"
+        },
+        "frontlight_topleft2": {
+          "group": "frontlight_topleft"
+        },
+        "frontlight_topleft3": {
+          "group": "frontlight_topleft"
+        },
+        "frontlight_topmid": {},
+        "frontlight_topmid1": {
+          "group": "frontlight_topmid"
+        },
+        "frontlight_topmid2": {
+          "group": "frontlight_topmid"
+        },
+        "frontlight_topmid3": {
+          "group": "frontlight_topmid"
+        },
+        "frontlight_topobbmain": {},
+        "frontlight_topobbmain1": {
+          "group": "frontlight_topobbmain"
+        },
+        "frontlight_topobbmain2": {
+          "group": "frontlight_topobbmain"
+        },
+        "frontlight_topobbmain3": {
+          "group": "frontlight_topobbmain"
+        },
+        "frontlight_topobbsec": {},
+        "frontlight_topobbsec1": {
+          "group": "frontlight_topobbsec"
+        },
+        "frontlight_topobbsec2": {
+          "group": "frontlight_topobbsec"
+        },
+        "frontlight_topobbsec3": {
+          "group": "frontlight_topobbsec"
+        },
+        "frontlight_topright": {},
+        "frontlight_topright1": {
+          "group": "frontlight_topright"
+        },
+        "frontlight_topright2": {
+          "group": "frontlight_topright"
+        },
+        "frontlight_topright3": {
+          "group": "frontlight_topright"
+        },
+        "rearlight_bleft": {},
+        "rearlight_bleft1": {
+          "group": "rearlight_bleft"
+        },
+        "rearlight_bleft2": {
+          "group": "rearlight_bleft"
+        },
+        "rearlight_bleft3": {
+          "group": "rearlight_bleft"
+        },
+        "rearlight_bright": {},
+        "rearlight_bright1": {
+          "group": "rearlight_bright"
+        },
+        "rearlight_bright2": {
+          "group": "rearlight_bright"
+        },
+        "rearlight_bright3": {
+          "group": "rearlight_bright"
+        },
+        "rearlight_topleft": {},
+        "rearlight_topleft1": {
+          "group": "rearlight_topleft"
+        },
+        "rearlight_topleft2": {
+          "group": "rearlight_topleft"
+        },
+        "rearlight_topleft3": {
+          "group": "rearlight_topleft"
+        },
+        "rearlight_topmid": {},
+        "rearlight_topmid1": {
+          "group": "rearlight_topmid"
+        },
+        "rearlight_topmid2": {
+          "group": "rearlight_topmid"
+        },
+        "rearlight_topmid3": {
+          "group": "rearlight_topmid"
+        },
+        "rearlight_topobbmain": {},
+        "rearlight_topobbmain1": {
+          "group": "rearlight_topobbmain"
+        },
+        "rearlight_topobbmain2": {
+          "group": "rearlight_topobbmain"
+        },
+        "rearlight_topobbmain3": {
+          "group": "rearlight_topobbmain"
+        },
+        "rearlight_topobbsec": {},
+        "rearlight_topobbsec1": {
+          "group": "rearlight_topobbsec"
+        },
+        "rearlight_topobbsec2": {
+          "group": "rearlight_topobbsec"
+        },
+        "rearlight_topobbsec3": {
+          "group": "rearlight_topobbsec"
+        },
+        "rearlight_topright": {},
+        "rearlight_topright1": {
+          "group": "rearlight_topright"
+        },
+        "rearlight_topright2": {
+          "group": "rearlight_topright"
+        },
+        "rearlight_topright3": {
+          "group": "rearlight_topright"
+        }
+      }
+    }
+  },
+  "skins": {
+    "swedishpack:yellow": {},
+    "swedishpack:blue": {},
+    "swedishpack:green": {},
+    "swedishpack:black": {},
+    "swedishpack:white": {},
+    "swedishpack:grey": {},
+    "swedishpack:magenta": {},
+    "swedishpack:lightblue": {},
+    "swedishpack:lime": {},
+    "swedishpack:lightgrey": {},
+    "swedishpack:cyan": {},
+    "swedishpack:pink": {},
+    "swedishpack:purple": {},
+    "swedishpack:brown": {},
+    "swedishpack:orange": {},
+    "swedishpack:red": {},
+    "swedishpack:skin16": {},
+    "swedishpack:skin17": {}
+  }
+}

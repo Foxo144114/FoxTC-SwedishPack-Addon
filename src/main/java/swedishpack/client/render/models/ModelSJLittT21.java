@@ -19,7 +19,7 @@ public class ModelSJLittT21 extends ModelConverter //Same as Filename
 	int textureX = 512;
 	int textureY = 512;
 
-	public ModelSJLittT21() //Same as Filename
+	public ModelSJLittT21()  //Same as Filename
 	{
 		bodyModel = new ModelRendererTurbo[485];
 
@@ -306,28 +306,28 @@ public class ModelSJLittT21 extends ModelConverter //Same as Filename
 		bodyModel[270] = new ModelRendererTurbo(this, 465, 73, textureX, textureY); // Du loco part28
 		bodyModel[271] = new ModelRendererTurbo(this, 465, 73, textureX, textureY); // Du loco part28
 		bodyModel[272] = new ModelRendererTurbo(this, 465, 73, textureX, textureY); // Du loco part28
-		bodyModel[273] = new ModelRendererTurbo(this, 451, 25, textureX, textureY); // Lamp
-		bodyModel[274] = new ModelRendererTurbo(this, 132, 36, textureX, textureY); // Lamp
-		bodyModel[275] = new ModelRendererTurbo(this, 451, 25, textureX, textureY); // Lamp
-		bodyModel[276] = new ModelRendererTurbo(this, 132, 36, textureX, textureY); // Lamp
-		bodyModel[277] = new ModelRendererTurbo(this, 451, 25, textureX, textureY); // Lamp
-		bodyModel[278] = new ModelRendererTurbo(this, 132, 36, textureX, textureY); // Lamp
-		bodyModel[279] = new ModelRendererTurbo(this, 451, 25, textureX, textureY); // Lamp
-		bodyModel[280] = new ModelRendererTurbo(this, 132, 36, textureX, textureY); // Lamp
-		bodyModel[281] = new ModelRendererTurbo(this, 451, 25, textureX, textureY); // Lamp
-		bodyModel[282] = new ModelRendererTurbo(this, 132, 36, textureX, textureY); // Lamp
+		bodyModel[273] = new ModelRendererTurbo(this, 451, 25, textureX, textureY, "frontlight_bleft2"); // Lamp
+		bodyModel[274] = new ModelRendererTurbo(this, 132, 36, textureX, textureY, "frontlight_bleft1"); // Lamp
+		bodyModel[275] = new ModelRendererTurbo(this, 451, 25, textureX, textureY, "frontlight_bright2"); // Lamp
+		bodyModel[276] = new ModelRendererTurbo(this, 132, 36, textureX, textureY, "frontlight_bright1"); // Lamp
+		bodyModel[277] = new ModelRendererTurbo(this, 451, 25, textureX, textureY, "frontlight_tright2"); // Lamp
+		bodyModel[278] = new ModelRendererTurbo(this, 132, 36, textureX, textureY, "frontlight_tright1"); // Lamp
+		bodyModel[279] = new ModelRendererTurbo(this, 451, 27, textureX, textureY, "frontred2"); // Lamp
+		bodyModel[280] = new ModelRendererTurbo(this, 132, 40, textureX, textureY, "frontred1"); // Lamp
+		bodyModel[281] = new ModelRendererTurbo(this, 451, 25, textureX, textureY, "frontlight_tleft2"); // Lamp
+		bodyModel[282] = new ModelRendererTurbo(this, 132, 36, textureX, textureY, "frontlight_tleft1"); // Lamp
 		bodyModel[283] = new ModelRendererTurbo(this, 456, 58, textureX, textureY); // Lamp
 		bodyModel[284] = new ModelRendererTurbo(this, 441, 58, textureX, textureY); // Lamp
-		bodyModel[285] = new ModelRendererTurbo(this, 451, 30, textureX, textureY); // Lamp
-		bodyModel[286] = new ModelRendererTurbo(this, 133, 32, textureX, textureY); // Lamp
-		bodyModel[287] = new ModelRendererTurbo(this, 451, 30, textureX, textureY); // Lamp
-		bodyModel[288] = new ModelRendererTurbo(this, 133, 32, textureX, textureY); // Lamp
-		bodyModel[289] = new ModelRendererTurbo(this, 451, 30, textureX, textureY); // Lamp
-		bodyModel[290] = new ModelRendererTurbo(this, 133, 32, textureX, textureY); // Lamp
-		bodyModel[291] = new ModelRendererTurbo(this, 451, 30, textureX, textureY); // Lamp
-		bodyModel[292] = new ModelRendererTurbo(this, 133, 32, textureX, textureY); // Lamp
-		bodyModel[293] = new ModelRendererTurbo(this, 451, 30, textureX, textureY); // Lamp
-		bodyModel[294] = new ModelRendererTurbo(this, 133, 32, textureX, textureY); // Lamp
+		bodyModel[285] = new ModelRendererTurbo(this, 451, 30, textureX, textureY, "rearlight_bright2"); // Lamp
+		bodyModel[286] = new ModelRendererTurbo(this, 133, 32, textureX, textureY, "rearlight_bright1"); // Lamp
+		bodyModel[287] = new ModelRendererTurbo(this, 451, 30, textureX, textureY, "rearlight_bleft2"); // Lamp
+		bodyModel[288] = new ModelRendererTurbo(this, 133, 32, textureX, textureY, "rearlight_bleft1"); // Lamp
+		bodyModel[289] = new ModelRendererTurbo(this, 451, 30, textureX, textureY, "rearlight_tleft2"); // Lamp
+		bodyModel[290] = new ModelRendererTurbo(this, 133, 32, textureX, textureY, "rearlight_tleft1"); // Lamp
+		bodyModel[291] = new ModelRendererTurbo(this, 451, 27, textureX, textureY, "rearred2"); // Lamp
+		bodyModel[292] = new ModelRendererTurbo(this, 132, 40, textureX, textureY, "rearred1"); // Lamp
+		bodyModel[293] = new ModelRendererTurbo(this, 451, 30, textureX, textureY, "rearlight_tright2"); // Lamp
+		bodyModel[294] = new ModelRendererTurbo(this, 133, 32, textureX, textureY, "rearlight_tright1"); // Lamp
 		bodyModel[295] = new ModelRendererTurbo(this, 414, 59, textureX, textureY); // Lamp
 		bodyModel[296] = new ModelRendererTurbo(this, 399, 59, textureX, textureY); // Lamp
 		bodyModel[297] = new ModelRendererTurbo(this, 465, 73, textureX, textureY); // Du loco part28

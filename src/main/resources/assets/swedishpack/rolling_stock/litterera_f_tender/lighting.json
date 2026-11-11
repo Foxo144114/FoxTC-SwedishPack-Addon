@@ -3,7 +3,44 @@
   "stock": "swedishpack:litterera_f_tender",
   "lighting": {
     "defaults": {
-      "fixtures": {}
+      "fixtures": {
+        "rearlight_left": {
+          "preset": "headlight"
+        },
+        "rearlight_left1": {
+          "group": "rearlight_left"
+        },
+        "rearlight_left2": {
+          "group": "rearlight_left"
+        },
+        "rearlight_left3": {
+          "group": "rearlight_left"
+        },
+        "rearlight_left4": {
+          "group": "rearlight_left"
+        },
+        "rearlight_left5": {
+          "group": "rearlight_left"
+        },
+        "rearlight_right": {
+          "preset": "headlight"
+        },
+        "rearlight_right1": {
+          "group": "rearlight_right"
+        },
+        "rearlight_right2": {
+          "group": "rearlight_right"
+        },
+        "rearlight_right3": {
+          "group": "rearlight_right"
+        },
+        "rearlight_right4": {
+          "group": "rearlight_right"
+        },
+        "rearlight_right5": {
+          "group": "rearlight_right"
+        }
+      }
     }
   },
   "skins": {

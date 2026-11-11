@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "stock": "swedishpack:sj_litterera_t23",
+  "lighting": {
+    "defaults": {
+      "fixtures": {
+        "frontlight_bleft": {
+          "preset": "headlight"
+        },
+        "frontlight_bleft1": {
+          "group": "frontlight_bleft"
+        },
+        "frontlight_bleft2": {
+          "group": "frontlight_bleft"
+        },
+        "frontlight_bright": {
+          "preset": "headlight"
+        },
+        "frontlight_bright1": {
+          "group": "frontlight_bright"
+        },
+        "frontlight_bright2": {
+          "group": "frontlight_bright"
+        },
+        "frontlight_tleft": {
+          "preset": "headlight",
+          "controlCircuit": "aux"
+        },
+        "frontlight_tleft1": {
+          "group": "frontlight_tleft"
+        },
+        "frontlight_tleft2": {
+          "group": "frontlight_tleft"
+        },
+        "frontlight_tright": {
+          "preset": "headlight",
+          "controlCircuit": "aux"
+        },
+        "frontlight_tright1": {
+          "group": "frontlight_tright"
+        },
+        "frontlight_tright2": {
+          "group": "frontlight_tright"
+        },
+        "frontred": {
+          "preset": "marker_light",
+          "controlCircuit": "ditch"
+        },
+        "frontred1": {
+          "group": "frontred"
+        },
+        "frontred2": {
+          "group": "frontred"
+        },
+        "rearlight_bleft": {
+          "preset": "headlight"
+        },
+        "rearlight_bleft1": {
+          "group": "rearlight_bleft"
+        },
+        "rearlight_bleft2": {
+          "group": "rearlight_bleft"
+        },
+        "rearlight_bright": {
+          "preset": "headlight"
+        },
+        "rearlight_bright1": {
+          "group": "rearlight_bright"
+        },
+        "rearlight_bright2": {
+          "group": "rearlight_bright"
+        },
+        "rearlight_tleft": {
+          "preset": "headlight",
+          "controlCircuit": "gyra"
+        },
+        "rearlight_tleft1": {
+          "group": "rearlight_tleft"
+        },
+        "rearlight_tleft2": {
+          "group": "rearlight_tleft"
+        },
+        "rearlight_tright": {
+          "preset": "headlight",
+          "controlCircuit": "gyra"
+        },
+        "rearlight_tright1": {
+          "group": "rearlight_tright"
+        },
+        "rearlight_tright2": {
+          "group": "rearlight_tright"
+        },
+        "rearred": {
+          "preset": "marker_light",
+          "controlCircuit": "emergency",
+          "color": "#FF2020"
+        },
+        "rearred1": {
+          "group": "rearred"
+        },
+        "rearred2": {
+          "group": "rearred"
+        }
+      }
+    }
+  },
+  "skins": {
+    "swedishpack:yellow": {},
+    "swedishpack:blue": {},
+    "swedishpack:green": {},
+    "swedishpack:black": {},
+    "swedishpack:white": {},
+    "swedishpack:grey": {},
+    "swedishpack:magenta": {},
+    "swedishpack:lightblue": {},
+    "swedishpack:lime": {},
+    "swedishpack:lightgrey": {}
+  }
+}

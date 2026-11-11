@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "stock": "swedishpack:sj_litterera_b1919",
+  "lighting": {
+    "defaults": {
+      "fixtures": {
+        "frontlight_left": {
+          "preset": "headlight"
+        },
+        "frontlight_left1": {
+          "group": "frontlight_left"
+        },
+        "frontlight_left2": {
+          "group": "frontlight_left"
+        },
+        "frontlight_left3": {
+          "group": "frontlight_left"
+        },
+        "frontlight_left4": {
+          "group": "frontlight_left"
+        },
+        "frontlight_left5": {
+          "group": "frontlight_left"
+        },
+        "frontlight_right": {
+          "preset": "headlight"
+        },
+        "frontlight_right1": {
+          "group": "frontlight_right"
+        },
+        "frontlight_right2": {
+          "group": "frontlight_right"
+        },
+        "frontlight_right3": {
+          "group": "frontlight_right"
+        },
+        "frontlight_right4": {
+          "group": "frontlight_right"
+        },
+        "frontlight_right5": {
+          "group": "frontlight_right"
+        },
+        "frontlight_top": {
+          "preset": "headlight"
+        },
+        "frontlight_top5": {
+          "group": "frontlight_top"
+        },
+        "frontlight_top4": {
+          "group": "frontlight_top"
+        },
+        "frontlight_top3": {
+          "group": "frontlight_top"
+        },
+        "frontlight_top2": {
+          "group": "frontlight_top"
+        },
+        "frontlight_top1": {
+          "group": "frontlight_top"
+        }
+      }
+    }
+  },
+  "skins": {
+    "swedishpack:yellow": {},
+    "swedishpack:blue": {},
+    "swedishpack:green": {}
+  }
+}

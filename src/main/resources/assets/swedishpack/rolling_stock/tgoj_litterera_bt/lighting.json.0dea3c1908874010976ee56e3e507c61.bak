@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "stock": "swedishpack:tgoj_litterera_bt",
+  "lighting": {
+    "defaults": {
+      "fixtures": {
+        "frontlight_bleft": {
+          "preset": "headlight"
+        },
+        "frontlight_bleft1": {
+          "group": "frontlight_bleft"
+        },
+        "frontlight_bleft2": {
+          "group": "frontlight_bleft"
+        },
+        "frontlight_bleft3": {
+          "group": "frontlight_bleft"
+        },
+        "frontlight_bright": {
+          "preset": "headlight"
+        },
+        "frontlight_bright1": {
+          "group": "frontlight_bright"
+        },
+        "frontlight_bright2": {
+          "group": "frontlight_bright"
+        },
+        "frontlight_bright3": {
+          "group": "frontlight_bright"
+        },
+        "frontlight_sleft": {
+          "preset": "headlight"
+        },
+        "frontlight_sleft1": {
+          "group": "frontlight_sleft"
+        },
+        "frontlight_sleft2": {
+          "group": "frontlight_sleft"
+        },
+        "frontlight_sleft3": {
+          "group": "frontlight_sleft"
+        },
+        "frontlight_sright": {
+          "preset": "headlight"
+        },
+        "frontlight_sright1": {
+          "group": "frontlight_sright"
+        },
+        "frontlight_sright2": {
+          "group": "frontlight_sright"
+        },
+        "frontlight_sright3": {
+          "group": "frontlight_sright"
+        },
+        "frontlight_topbig": {
+          "preset": "headlight",
+          "controlCircuit": "aux"
+        },
+        "frontlight_topbig1": {
+          "group": "frontlight_topbig"
+        },
+        "frontlight_topbig2": {
+          "group": "frontlight_topbig"
+        },
+        "frontlight_topbig3": {
+          "group": "frontlight_topbig"
+        },
+        "frontlight_topleft": {
+          "preset": "headlight",
+          "controlCircuit": "aux"
+        },
+        "frontlight_topleft1": {
+          "group": "frontlight_topleft"
+        },
+        "frontlight_topleft2": {
+          "group": "frontlight_topleft"
+        },
+        "frontlight_topleft3": {
+          "group": "frontlight_topleft"
+        },
+        "frontlight_topright": {},
+        "frontlight_topright1": {
+          "group": "frontlight_topright"
+        },
+        "frontlight_topright2": {
+          "group": "frontlight_topright"
+        },
+        "frontlight_topright3": {
+          "group": "frontlight_topright"
+        },
+        "frontlight_topsmall": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "controlCircuit": "emergency"
+        },
+        "frontlight_topsmall1": {
+          "group": "frontlight_topsmall"
+        },
+        "frontlight_topsmall2": {
+          "group": "frontlight_topsmall"
+        },
+        "frontlight_topsmall3": {
+          "group": "frontlight_topsmall"
+        },
+        "rearlight_bleft": {
+          "preset": "headlight"
+        },
+        "rearlight_bleft1": {
+          "group": "rearlight_bleft"
+        },
+        "rearlight_bleft2": {
+          "group": "rearlight_bleft"
+        },
+        "rearlight_bleft3": {
+          "group": "rearlight_bleft"
+        },
+        "rearlight_bright": {
+          "preset": "headlight"
+        },
+        "rearlight_bright1": {
+          "group": "rearlight_bright"
+        },
+        "rearlight_bright2": {
+          "group": "rearlight_bright"
+        },
+        "rearlight_bright3": {
+          "group": "rearlight_bright"
+        },
+        "rearlight_sleft": {
+          "preset": "headlight"
+        },
+        "rearlight_sleft1": {
+          "group": "rearlight_sleft"
+        },
+        "rearlight_sleft2": {
+          "group": "rearlight_sleft"
+        },
+        "rearlight_sleft3": {
+          "group": "rearlight_sleft"
+        },
+        "rearlight_sright": {
+          "preset": "headlight"
+        },
+        "rearlight_sright1": {
+          "group": "rearlight_sright"
+        },
+        "rearlight_sright2": {
+          "group": "rearlight_sright"
+        },
+        "rearlight_sright3": {
+          "group": "rearlight_sright"
+        },
+        "rearlight_topbig": {
+          "preset": "headlight",
+          "controlCircuit": "gyra"
+        },
+        "rearlight_topbig1": {
+          "group": "rearlight_topbig"
+        },
+        "rearlight_topbig2": {
+          "group": "rearlight_topbig"
+        },
+        "rearlight_topbig3": {
+          "group": "rearlight_topbig"
+        },
+        "rearlight_topleft": {},
+        "rearlight_topleft1": {
+          "group": "rearlight_topleft"
+        },
+        "rearlight_topleft2": {
+          "group": "rearlight_topleft"
+        },
+        "rearlight_topleft3": {
+          "group": "rearlight_topleft"
+        },
+        "rearlight_topright": {
+          "preset": "headlight",
+          "controlCircuit": "gyra"
+        },
+        "rearlight_topright1": {
+          "group": "rearlight_topright"
+        },
+        "rearlight_topright2": {
+          "group": "rearlight_topright"
+        },
+        "rearlight_topright3": {
+          "group": "rearlight_topright"
+        },
+        "rearlight_topsmall": {
+          "preset": "marker_light",
+          "controlCircuit": "ditch",
+          "color": "#FF2020"
+        },
+        "rearlight_topsmall1": {
+          "group": "rearlight_topsmall"
+        },
+        "rearlight_topsmall2": {
+          "group": "rearlight_topsmall"
+        },
+        "rearlight_topsmall3": {
+          "group": "rearlight_topsmall"
+        }
+      }
+    }
+  },
+  "skins": {
+    "swedishpack:yellow": {
+      "lighting": {
+        "fixtures": {
+          "frontlight_topright": {
+            "preset": "marker_light",
+            "controlCircuit": "emergency",
+            "color": "#FF2020"
+          },
+          "rearlight_topleft": {
+            "preset": "marker_light",
+            "controlCircuit": "ditch",
+            "color": "#FF2020"
+          }
+        }
+      }
+    },
+    "swedishpack:blue": {
+      "lighting": {
+        "fixtures": {
+          "rearlight_topleft": {
+            "preset": "marker_light",
+            "controlCircuit": "ditch",
+            "color": "#FF2020"
+          },
+          "frontlight_topright": {
+            "controlCircuit": "emergency",
+            "color": "#FF2020"
+          }
+        }
+      }
+    },
+    "swedishpack:green": {
+      "lighting": {
+        "fixtures": {
+          "frontlight_topright": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "emergency"
+          },
+          "rearlight_topleft": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "ditch"
+          }
+        }
+      }
+    },
+    "swedishpack:black": {
+      "lighting": {
+        "fixtures": {
+          "rearlight_topleft": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "ditch"
+          },
+          "frontlight_topright": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "emergency"
+          }
+        }
+      }
+    },
+    "swedishpack:white": {
+      "lighting": {
+        "fixtures": {
+          "frontlight_topright": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "emergency"
+          },
+          "rearlight_topleft": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "ditch"
+          }
+        }
+      }
+    },
+    "swedishpack:grey": {
+      "lighting": {
+        "fixtures": {
+          "rearlight_topleft": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "ditch"
+          },
+          "frontlight_topright": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "emergency"
+          }
+        }
+      }
+    },
+    "swedishpack:magenta": {
+      "lighting": {
+        "fixtures": {
+          "frontlight_topright": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "emergency"
+          },
+          "rearlight_topleft": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "ditch"
+          }
+        }
+      }
+    },
+    "swedishpack:lightblue": {
+      "lighting": {
+        "fixtures": {
+          "rearlight_topleft": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "ditch"
+          },
+          "frontlight_topright": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "emergency"
+          }
+        }
+      }
+    },
+    "swedishpack:lime": {
+      "lighting": {
+        "fixtures": {
+          "frontlight_topright": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "emergency"
+          },
+          "rearlight_topleft": {
+            "preset": "marker_light",
+            "color": "#FF2020",
+            "controlCircuit": "ditch"
+          }
+        }
+      }
+    },
+    "swedishpack:lightgrey": {
+      "lighting": {
+        "fixtures": {
+          "rearlight_topleft": {
+            "preset": "headlight",
+            "controlCircuit": "gyra"
+          },
+          "frontlight_topright": {
+            "preset": "headlight",
+            "controlCircuit": "aux"
+          }
+        }
+      }
+    },
+    "swedishpack:cyan": {
+      "lighting": {
+        "fixtures": {
+          "frontlight_topright": {
+            "preset": "headlight",
+            "controlCircuit": "aux"
+          },
+          "rearlight_topleft": {
+            "preset": "headlight",
+            "controlCircuit": "gyra"
+          }
+        }
+      }
+    },
+    "swedishpack:pink": {
+      "lighting": {
+        "fixtures": {
+          "rearlight_topleft": {
+            "preset": "headlight",
+            "controlCircuit": "gyra"
+          },
+          "frontlight_topright": {
+            "preset": "headlight",
+            "controlCircuit": "aux"
+          }
+        }
+      }
+    },
+    "swedishpack:purple": {},
+    "swedishpack:brown": {},
+    "swedishpack:orange": {}
+  }
+}

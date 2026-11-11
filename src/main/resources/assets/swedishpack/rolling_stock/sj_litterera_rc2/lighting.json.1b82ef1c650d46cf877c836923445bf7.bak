@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "stock": "swedishpack:sj_litterera_rc2",
+  "lighting": {
+    "defaults": {
+      "fixtures": {}
+    }
+  },
+  "skins": {
+    "swedishpack:yellow": {},
+    "swedishpack:blue": {},
+    "swedishpack:green": {},
+    "swedishpack:black": {},
+    "swedishpack:white": {},
+    "swedishpack:grey": {},
+    "swedishpack:magenta": {},
+    "swedishpack:lightblue": {},
+    "swedishpack:lime": {},
+    "swedishpack:lightgrey": {},
+    "swedishpack:cyan": {},
+    "swedishpack:pink": {}
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "stock": "swedishpack:sj_litterera_t31",
+  "lighting": {
+    "defaults": {
+      "fixtures": {
+        "reverse_light1": {
+          "group": "reverse_lightleft"
+        },
+        "reverse_light2": {
+          "group": "reverse_lightleft"
+        },
+        "reverse_light3": {
+          "group": "reverse_lightright"
+        },
+        "reverse_light4": {
+          "group": "reverse_lightright"
+        },
+        "reverse_light": {},
+        "reverse_lightleft": {
+          "preset": "headlight"
+        },
+        "reverse_lightright": {
+          "preset": "headlight"
+        },
+        "redforward2": {
+          "group": "redforward"
+        },
+        "redforward1": {
+          "group": "redforward"
+        },
+        "front_lightleft": {
+          "preset": "headlight"
+        },
+        "front_light1": {
+          "group": "front_lightleft"
+        },
+        "front_light2": {
+          "group": "front_lightleft"
+        },
+        "front_lightright": {
+          "preset": "headlight"
+        },
+        "front_light3": {
+          "group": "front_lightright"
+        },
+        "front_light4": {
+          "group": "front_lightright"
+        },
+        "redback": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "controlCircuit": "ditch"
+        },
+        "redforwardog": {
+          "preset": "marker_light",
+          "color": "#FF2020",
+          "controlCircuit": "emergency"
+        },
+        "redbackog": {
+          "group": "redback"
+        }
+      }
+    }
+  },
+  "skins": {
+    "swedishpack:yellow": {},
+    "swedishpack:blue": {}
+  }
+}
